@@ -1,0 +1,292 @@
+================================================================================
+PROJECT STRUCTURE
+Retrieval-Augmented Generation System for Enterprise Knowledge Management
+================================================================================
+
+unido-enterprise-rag/
+│
+├── data/
+│   ├── raw/                          # Original source documents
+│   │   ├── finance/
+│   │   │   ├── UNIDO_Finance.pdf           # Finance policy (18 pages)
+│   │   │   └── Finance_and_Accounting.txt  # Finance dataset (100 records)
+│   │   ├── hr/
+│   │   │   ├── UNIDO_HR.pdf                # HR policy (22 pages)
+│   │   │   └── Human_Resource.txt          # HR dataset (100 records)
+│   │   └── manufacturing/
+│   │       ├── UNIDO_Manufacturing.pdf     # Manufacturing methodology (11 pages)
+│   │       └── Manufacturing_Production.txt # Manufacturing dataset (100 records)
+│   │
+│   ├── processed/                    # Processed chunks and embeddings
+│   │   ├── chunks/
+│   │   │   ├── finance_chunks.json         # Finance text chunks
+│   │   │   ├── hr_chunks.json              # HR text chunks
+│   │   │   └── manufacturing_chunks.json   # Manufacturing text chunks
+│   │   └── metadata/
+│   │       └── chunk_metadata.json         # Chunk metadata (source, dept, page)
+│   │
+│   └── vector_db/                    # ChromaDB persistent storage
+│       └── chroma_db/                      # SQLite vector database
+│
+├── src/
+│   ├── config/
+│   │   ├── __init__.py
+│   │   └── settings.py               # Configuration (models, paths, params)
+│   │
+│   ├── ingestion/
+│   │   ├── __init__.py
+│   │   ├── pdf_extractor.py          # PDF text extraction (PyMuPDF)
+│   │   ├── text_parser.py            # Text dataset parsing (regex + pandas)
+│   │   ├── chunker.py                # Text chunking (LangChain splitter)
+│   │   └── serializer.py             # Dataset serialization to text
+│   │
+│   ├── embeddings/
+│   │   ├── __init__.py
+│   │   ├── generator.py              # Embedding generation (sentence-transformers)
+│   │   └── models.py                 # Embedding model configuration
+│   │
+│   ├── vectorstore/
+│   │   ├── __init__.py
+│   │   ├── chroma_manager.py         # ChromaDB operations (store/retrieve)
+│   │   └── indexer.py                # Vector indexing pipeline
+│   │
+│   ├── retrieval/
+│   │   ├── __init__.py
+│   │   ├── query_processor.py        # Query embedding and preprocessing
+│   │   ├── retriever.py              # Similarity search and ranking
+│   │   └── reranker.py               # Optional reranking logic
+│   │
+│   ├── generation/
+│   │   ├── __init__.py
+│   │   ├── llm_client.py             # Ollama API client (localhost:11434)
+│   │   ├── prompt_builder.py         # Prompt template construction
+│   │   └── response_handler.py       # Response parsing and formatting
+│   │
+│   └── utils/
+│       ├── __init__.py
+│       ├── logger.py                 # Logging configuration
+│       ├── validators.py             # Input validation
+│       └── helpers.py                # Utility functions
+│
+├── pipeline/
+│   ├── __init__.py
+│   ├── ingest_pipeline.py            # Full ingestion pipeline
+│   ├── query_pipeline.py             # Full query pipeline (retrieval + generation)
+│   └── orchestrator.py               # End-to-end RAG orchestration
+│
+├── tests/
+│   ├── __init__.py
+│   ├── test_pdf_extraction.py        # Unit tests for PDF extraction
+│   ├── test_text_parsing.py          # Unit tests for text parsing
+│   ├── test_chunking.py              # Unit tests for chunking
+│   ├── test_embeddings.py            # Unit tests for embedding generation
+│   ├── test_vectorstore.py           # Unit tests for ChromaDB operations
+│   ├── test_retrieval.py             # Unit tests for retrieval
+│   ├── test_generation.py            # Unit tests for LLM generation
+│   └── test_end_to_end.py            # Integration tests (full pipeline)
+│
+├── evaluation/
+│   ├── __init__.py
+│   ├── metrics.py                    # Evaluation metrics (relevance, accuracy, faithfulness)
+│   ├── test_queries.json             # Sample queries for testing
+│   └── evaluate.py                   # Evaluation script
+│
+├── scripts/
+│   ├── setup_environment.sh          # WSL2 + Ollama setup script
+│   ├── download_models.sh            # Download embedding + LLM models
+│   ├── run_ingestion.py              # Run document ingestion
+│   └── run_query.py                  # CLI query interface
+│
+├── notebooks/
+│   ├── 01_data_exploration.ipynb     # Explore source documents
+│   ├── 02_chunking_experiments.ipynb # Test chunking strategies
+│   ├── 03_embedding_analysis.ipynb   # Analyze embeddings
+│   └── 04_retrieval_testing.ipynb    # Test retrieval quality
+│
+├── docs/
+│   ├── architecture.md               # System architecture diagram
+│   ├── setup_guide.md                # Installation and setup instructions
+│   ├── usage_guide.md                # How to use the system
+│   └── evaluation_results.md         # Evaluation metrics and results
+│
+├── requirements.txt                  # Python dependencies
+├── .env.example                      # Environment variables template
+├── .gitignore                        # Git ignore rules
+├── README.md                         # Project overview and quick start
+└── LICENSE                           # Project license
+
+
+================================================================================
+DIRECTORY DESCRIPTIONS
+================================================================================
+
+data/
+  Purpose: Store all source documents, processed data, and vector database
+  Subdirectories:
+    - raw/           : Original PDF and text files (organized by department)
+    - processed/     : Chunked text and metadata after preprocessing
+    - vector_db/     : ChromaDB persistent storage (SQLite backend)
+
+src/
+  Purpose: Core source code for RAG system components
+  Subdirectories:
+    - config/        : Configuration files (model names, paths, parameters)
+    - ingestion/     : Document loading and preprocessing
+    - embeddings/    : Embedding generation using sentence-transformers
+    - vectorstore/   : ChromaDB operations (indexing, retrieval)
+    - retrieval/     : Query processing and similarity search
+    - generation/    : LLM integration (Ollama) and response generation
+    - utils/         : Logging, validation, and helper functions
+
+pipeline/
+  Purpose: High-level orchestration of RAG workflows
+  Files:
+    - ingest_pipeline.py  : Document ingestion → chunking → embedding → indexing
+    - query_pipeline.py   : Query → retrieval → context assembly → generation
+    - orchestrator.py     : End-to-end RAG coordination
+
+tests/
+  Purpose: Unit and integration tests for all components
+  Coverage:
+    - PDF extraction, text parsing, chunking
+    - Embedding generation, vector storage
+    - Retrieval accuracy, LLM generation
+    - End-to-end pipeline validation
+
+evaluation/
+  Purpose: System evaluation and performance metrics
+  Files:
+    - metrics.py         : Context relevance, answer accuracy, faithfulness
+    - test_queries.json  : Sample queries across Finance, HR, Manufacturing
+    - evaluate.py        : Run evaluation suite
+
+scripts/
+  Purpose: Automation scripts for setup and execution
+  Files:
+    - setup_environment.sh : Install WSL2, Ollama, dependencies
+    - download_models.sh   : Download Mistral 7B and embedding model
+    - run_ingestion.py     : Execute document ingestion pipeline
+    - run_query.py         : CLI interface for querying the system
+
+notebooks/
+  Purpose: Jupyter notebooks for experimentation and analysis
+  Files:
+    - Data exploration (inspect PDFs and text datasets)
+    - Chunking experiments (test different chunk sizes/overlaps)
+    - Embedding analysis (visualize vector space)
+    - Retrieval testing (evaluate retrieval quality)
+
+docs/
+  Purpose: Project documentation
+  Files:
+    - architecture.md        : System design and component interactions
+    - setup_guide.md         : Installation instructions (Windows + WSL2)
+    - usage_guide.md         : How to run ingestion and query pipelines
+    - evaluation_results.md  : Performance metrics and test results
+
+
+================================================================================
+KEY FILES
+================================================================================
+
+requirements.txt
+  Purpose: List of all Python dependencies
+  Content:
+    langchain==0.1.20
+    sentence-transformers==2.2.2
+    chromadb==0.4.24
+    PyMuPDF==1.23.26
+    pandas==2.0.3
+    regex==2023.12.25
+    pytest==7.4.0
+
+.env.example
+  Purpose: Template for environment variables
+  Content:
+    OLLAMA_BASE_URL=http://localhost:11434
+    EMBEDDING_MODEL=all-MiniLM-L6-v2
+    LLM_MODEL=mistral:7b-instruct-q4_0
+    CHROMA_DB_PATH=./data/vector_db/chroma_db
+    CHUNK_SIZE=512
+    CHUNK_OVERLAP=50
+
+.gitignore
+  Purpose: Exclude unnecessary files from version control
+  Content:
+    data/vector_db/
+    data/processed/
+    __pycache__/
+    *.pyc
+    .env
+    .ipynb_checkpoints/
+    *.log
+
+README.md
+  Purpose: Project overview and quick start guide
+  Sections:
+    - Project description
+    - Installation instructions
+    - Usage examples
+    - System architecture
+    - Evaluation results
+    - License information
+
+
+================================================================================
+EXECUTION FLOW
+================================================================================
+
+1. SETUP PHASE
+   ├── Install WSL2 (scripts/setup_environment.sh)
+   ├── Install Python dependencies (pip install -r requirements.txt)
+   ├── Download models (scripts/download_models.sh)
+   └── Start Ollama server (ollama serve in WSL2)
+
+2. INGESTION PHASE (scripts/run_ingestion.py)
+   ├── src/ingestion/pdf_extractor.py     → Extract text from PDFs
+   ├── src/ingestion/text_parser.py       → Parse text datasets
+   ├── src/ingestion/serializer.py        → Convert records to text
+   ├── src/ingestion/chunker.py           → Split into chunks
+   ├── src/embeddings/generator.py        → Generate embeddings
+   └── src/vectorstore/indexer.py         → Store in ChromaDB
+
+3. QUERY PHASE (scripts/run_query.py or pipeline/query_pipeline.py)
+   ├── src/retrieval/query_processor.py   → Process user query
+   ├── src/retrieval/retriever.py         → Retrieve relevant chunks
+   ├── src/generation/prompt_builder.py   → Build LLM prompt
+   ├── src/generation/llm_client.py       → Call Ollama API
+   └── src/generation/response_handler.py → Format and return response
+
+4. EVALUATION PHASE (evaluation/evaluate.py)
+   ├── Load test queries (evaluation/test_queries.json)
+   ├── Run queries through pipeline
+   ├── Calculate metrics (evaluation/metrics.py)
+   └── Generate report (evaluation/evaluation_results.md)
+
+
+================================================================================
+NOTES
+================================================================================
+
+- All paths are relative to project root (unido-enterprise-rag/)
+- data/raw/ contains original files (never modified)
+- data/processed/ contains intermediate outputs (can be regenerated)
+- data/vector_db/ contains ChromaDB persistent storage (disk-backed)
+- src/ contains reusable modules (importable across scripts)
+- pipeline/ contains high-level orchestration (calls src/ modules)
+- tests/ mirrors src/ structure for easy test discovery
+- scripts/ contains executable entry points (.py and .sh)
+- notebooks/ for experimentation only (not production code)
+- Configuration centralized in src/config/settings.py and .env
+
+Total Structure:
+  - 7 main directories
+  - 13 subdirectories
+  - ~40 Python files
+  - ~10 support files (docs, config, scripts)
+
+Hardware Optimized For:
+  - Windows 64-bit + WSL2
+  - Intel i5-1235U (CPU-only processing)
+  - 8GB RAM (memory-efficient components)
+  - 289GB storage (ChromaDB persistent mode)

@@ -1,0 +1,532 @@
+================================================================================
+TECHNICAL REQUIREMENTS FOR RAG SYSTEM
+Enterprise Knowledge Management - UNIDO Knowledge Base
+================================================================================
+
+Derived from:
+  • SYNOPSIS_II.pdf (Project methodology, objectives, scope)
+  • 3 Policy PDFs (UNIDO Finance, HR, Manufacturing - text-based, multi-page)
+  • 3 Text Datasets (Finance, HR, Manufacturing - structured key-value format)
+
+Project Scope: Local deployment, 3 departments (Finance, HR, Manufacturing)
+Data: 300 text records + 3 multi-page PDFs
+Architecture: Retrieval-Augmented Generation (RAG)
+
+
+================================================================================
+1. PROGRAMMING LANGUAGE & RUNTIME ENVIRONMENT
+================================================================================
+
+Python 3.9+
+  └─ Required for all core libraries (LangChain, sentence-transformers, vector DB)
+  └─ Needed for: PDF processing, text parsing, embedding generation, orchestration
+
+
+================================================================================
+2. PYTHON LIBRARIES (REQUIRED VERSIONS)
+================================================================================
+
+langchain==0.1.20
+sentence-transformers==2.2.2
+chromadb==0.4.24
+PyMuPDF==1.23.26
+pandas==2.0.3
+regex==2023.12.25
+
+pytest==7.4.0 (testing)
+
+
+Purpose of Each Library:
+────────────────────────
+
+langchain==0.1.20
+  └─ RAG pipeline orchestration (document loaders, text splitters, retrieval chains)
+  └─ Native connectors for ChromaDB, sentence-transformers, Ollama
+
+sentence-transformers==2.2.2
+  └─ Generate dense embeddings for text chunks
+  └─ Model: all-MiniLM-L6-v2 (384-dim, ~100MB, CPU-friendly)
+
+chromadb==0.4.24
+  └─ Local vector database for storing and retrieving embeddings
+  └─ SQLite backend (persistent, disk-based storage)
+
+PyMuPDF==1.23.26
+  └─ PDF text extraction for 3 UNIDO policy documents (total 51 pages)
+  └─ Lightweight, no OCR required (text-based PDFs)
+
+pandas==2.0.3
+  └─ Parse structured text datasets (Finance, HR, Manufacturing)
+  └─ Handle "Not Available" values in HR Promotion_Type field
+
+regex==2023.12.25
+  └─ Parse key-value format text files: "Field1: Value1. Field2: Value2..."
+  └─ Extract structured data from 300 text records
+
+
+================================================================================
+3. LANGUAGE MODEL (LLM) - OPTIMIZED FOR 8GB RAM
+================================================================================
+
+Ollama
+  └─ Version: 0.1.0+
+  └─ Platform: WSL2 (Ubuntu) on Windows 64-bit
+  └─ Deployment: REST API on localhost:11434 (accessible from Windows)
+
+Recommended Model (8GB RAM Constraint):
+  mistral:7b-instruct-q4_0
+    └─ Parameters: 7 billion
+    └─ Quantization: 4-bit (Q4_0)
+    └─ RAM Usage: ~4 GB
+    └─ Performance: Excellent for RAG tasks, fast inference on CPU
+    └─ Why: Best balance between quality and memory efficiency
+
+Alternative Model:
+  llama3:8b-instruct-q4_0
+    └─ Parameters: 8 billion
+    └─ Quantization: 4-bit (Q4_0)
+    └─ RAM Usage: ~4.5 GB
+    └─ Performance: Slightly better accuracy, marginally slower
+    └─ Why: If extra 0.5GB RAM is acceptable
+
+⚠️ AVOID These Models (RAM Incompatible):
+  └─ llama3 (non-quantized): Requires 16GB+ RAM
+  └─ mistral (non-quantized): Requires 14GB+ RAM
+  └─ llama3:70b-*: Requires 40GB+ RAM
+  └─ Any model without "q4_0" or "q4_K_M" suffix
+
+Why Local LLM on 8GB RAM:
+  └─ Data privacy: UNIDO policy documents never leave local machine
+  └─ No API costs: Free inference after initial setup
+  └─ Offline operation: No internet required after model download
+  └─ 4-bit quantization: Minimal quality loss (~2-3%), 75% memory savings
+
+
+================================================================================
+4. SYSTEM SOFTWARE & TOOLS
+================================================================================
+
+4.1 Operating System (ACTUAL SYSTEM)
+    ────────────────────────────────
+    Windows 64-bit + WSL2 (Windows Subsystem for Linux)
+      └─ Windows Version: Windows 10 version 2004+ or Windows 11
+      └─ WSL2: REQUIRED for Ollama (Ollama does not run natively on Windows)
+      └─ Installation: Run in PowerShell (Admin): wsl --install
+      └─ Linux Distribution: Ubuntu 22.04 LTS (default, recommended)
+
+    Why WSL2:
+      └─ Ollama requires Linux kernel (only runs on Linux/macOS natively)
+      └─ WSL2 provides full Linux compatibility on Windows
+      └─ Python libraries run in Windows; Ollama runs in WSL2 Ubuntu
+      └─ Communication: Windows Python → localhost:11434 → WSL2 Ollama
+
+4.2 Package Managers
+    ────────────────
+    pip (Python Package Installer)
+      └─ Version: Latest (comes with Python)
+      └─ Purpose: Install all Python libraries in Windows environment
+      └─ Command: pip install <package>
+
+    apt (Advanced Package Tool) - in WSL2 Ubuntu
+      └─ Purpose: System dependencies if needed
+      └─ Example: sudo apt update && sudo apt install curl
+
+
+================================================================================
+5. HARDWARE REQUIREMENTS (PROJECT-SPECIFIC)
+================================================================================
+
+5.1 Available Hardware (Actual System)
+    ──────────────────────────────────
+    CPU: Intel Core i5-1235U (12th Gen)
+      └─ Architecture: Hybrid (2 P-cores + 8 E-cores, 12 threads)
+      └─ Status: ✓ Sufficient for all RAG components
+
+    RAM: 8 GB (7.68 GB usable)
+      └─ Status: ⚠️ CRITICAL CONSTRAINT
+      └─ Impact: Limits LLM model size (cannot run large models like llama3 70B)
+      └─ Solution: Use smaller models (mistral 7B, llama3 8B) with quantization
+
+    GPU: Intel Iris Xe Graphics (Integrated)
+      └─ Status: ✗ No CUDA support (Intel integrated GPU)
+      └─ Impact: LLM inference runs on CPU only (slower but functional)
+      └─ Note: All components will use CPU (no GPU acceleration)
+
+    Storage: 289 GB free space
+      └─ Status: ✓ More than sufficient
+      └─ Required: ~10-15 GB total
+
+    Operating System: Windows 64-bit
+      └─ Requirement: WSL2 (Windows Subsystem for Linux) for Ollama
+      └─ Installation: wsl --install (in PowerShell as Administrator)
+
+5.2 Resource Allocation Strategy (8GB RAM Constraint)
+    ─────────────────────────────────────────────────
+    System + Windows: ~2.5 GB
+    Python Environment: ~1.5 GB
+    ChromaDB + Embeddings: ~1 GB
+    Ollama LLM (7B quantized): ~4 GB
+    ─────────────────────────────
+    Total: ~9 GB (requires swap/virtual memory for headroom)
+
+    ⚠️ CRITICAL: Close all unnecessary applications during LLM inference
+
+5.3 Optimizations for 8GB RAM
+    ─────────────────────────
+    LLM Model Selection:
+      └─ Use: mistral:7b-instruct-q4_0 (4-bit quantized, ~4GB RAM)
+      └─ Alternative: llama3:8b-instruct-q4_0 (4-bit quantized, ~4.5GB RAM)
+      └─ Avoid: Non-quantized models (require 12GB+)
+
+    Embedding Model:
+      └─ Use: all-MiniLM-L6-v2 (384-dim, ~100MB RAM)
+      └─ Avoid: all-mpnet-base-v2 (768-dim, ~400MB RAM) - not critical but larger
+
+    Batch Processing:
+      └─ Process PDFs and text files sequentially (not in parallel)
+      └─ Generate embeddings in small batches (32 chunks at a time)
+
+    ChromaDB:
+      └─ Use persistent mode (disk-backed, not in-memory)
+      └─ This keeps vector storage on disk, not RAM
+
+
+================================================================================
+6. DATA-SPECIFIC REQUIREMENTS
+================================================================================
+
+6.1 Input File Formats
+    ──────────────────
+    PDF (.pdf)
+      └─ Count: 3 files
+      └─ Characteristics: Text-extractable (no scanned images), multi-page
+      └─ Processing: PyMuPDF for text extraction
+      └─ Files: UNIDO_Finance.pdf, UNIDO_HR.pdf, UNIDO_Manufacturing.pdf
+
+    Text (.txt)
+      └─ Count: 3 files
+      └─ Format: Structured key-value pairs, one record per 2 lines (data + blank line)
+      └─ Processing: Custom regex parsing + pandas DataFrame conversion
+      └─ Files: Finance_and_Accounting.txt, Human_Resource_Management.txt, 
+                Manufacturing_and_Production.txt
+
+6.2 Data Preprocessing Requirements
+    ───────────────────────────────
+    Text Cleaning
+      └─ Remove: Extra whitespace, blank lines, special characters (if needed)
+      └─ Preserve: Semantic structure (headings, regulations, record fields)
+
+    Missing Value Handling
+      └─ HR Dataset: "Not Available" in Promotion_Type field (intentional, keep as-is)
+      └─ No NaN/null replacement needed (text format already contains placeholder strings)
+
+    Field Extraction
+      └─ Finance: 9 fields (Transaction_ID, Date, Biennium, Budget_Type, Fund_Type, 
+                            Category, Amount_EUR, Status, Approved_By)
+      └─ HR: 11 fields (Employee_ID, Division, Gender, Grade, Category, Appointment, 
+                        Hire_Date, Yrs_in_Grade, Perf_Rating, Promo_Eligible, Promotion_Type)
+      └─ Manufacturing: 12 fields (Record_ID, Region, Development_Group, Industry_Sector, 
+                                   Year, Quarter, IIP_Index_2015_100, MVA_Weight_Pct, 
+                                   QoQ_Growth_Pct, YoY_Growth_Pct, Seasonally_Adjusted, 
+                                   Data_Status)
+
+6.3 Chunking Strategy
+    ─────────────────
+    PDF Documents
+      └─ Method: Recursive character splitting with overlap
+      └─ Chunk size: 512-1024 tokens
+      └─ Overlap: 50-100 tokens (preserve context across chunks)
+      └─ Reason: Multi-page policy documents (11-22 pages) exceed single-embedding limits
+
+    Text Datasets
+      └─ Method: Record-level chunking (each record = 1 chunk)
+      └─ Serialization: Convert structured fields to natural language
+      └─ Example: "Finance transaction FIN-0001 on 2024-04-24 in biennium 2024-2025 
+                   with Regular Budget, General Fund, Appropriation of 561910.79 EUR, 
+                   Approved status by Conference"
+      └─ Reason: Preserve complete record context for accurate retrieval
+
+
+================================================================================
+7. TESTING & EVALUATION TOOLS
+================================================================================
+
+7.1 Testing Framework
+    ─────────────────
+    pytest (OPTIONAL but recommended)
+      └─ Version: 7.4.0+
+      └─ Purpose: Unit tests for chunking, embedding, retrieval, generation
+      └─ Test cases: PDF extraction, text parsing, vector storage, end-to-end RAG
+
+7.2 Evaluation Metrics (Per Synopsis)
+    ─────────────────────────────────
+    Manual Implementation Required:
+      └─ Context Relevance: Are retrieved chunks semantically related to query?
+      └─ Answer Accuracy: Does LLM response match ground truth from policy docs?
+      └─ Faithfulness: Is response grounded in retrieved context (no hallucination)?
+
+    Measurement Approach:
+      └─ Sample queries across 3 departments
+      └─ Human evaluation of responses
+      └─ Compare generated answers to source documents
+
+
+================================================================================
+8. DEPLOYMENT ARCHITECTURE
+================================================================================
+
+8.1 Pipeline Components (in execution order)
+    ────────────────────────────────────────
+
+    [INGESTION PHASE]
+      1. PDF Text Extraction (PyMuPDF)
+           └─ Input: 3 UNIDO policy PDFs
+           └─ Output: Raw text strings
+
+      2. Text Dataset Parsing (pandas + regex)
+           └─ Input: 3 text files (300 records)
+           └─ Output: Structured DataFrames
+
+      3. Text Serialization
+           └─ Input: DataFrames
+           └─ Output: Natural language descriptions per record
+
+      4. Text Chunking (LangChain splitter)
+           └─ Input: PDF text + serialized records
+           └─ Output: ~500-1000 context-preserving chunks
+
+      5. Embedding Generation (sentence-transformers)
+           └─ Input: Text chunks
+           └─ Output: Dense vectors (384-dim or 768-dim)
+
+      6. Vector Storage (ChromaDB)
+           └─ Input: Embeddings + metadata
+           └─ Output: Indexed vector database (persistent)
+
+    [QUERY PHASE]
+      7. Query Embedding (sentence-transformers)
+           └─ Input: User natural language query
+           └─ Output: Query vector
+
+      8. Similarity Search (ChromaDB)
+           └─ Input: Query vector
+           └─ Output: Top-k most relevant chunks (k=3-5)
+
+      9. Context Assembly (LangChain)
+           └─ Input: Retrieved chunks
+           └─ Output: Formatted context for LLM
+
+     10. Response Generation (Ollama LLM)
+           └─ Input: Query + retrieved context
+           └─ Output: Grounded natural language answer
+
+8.2 Persistence Requirements
+    ────────────────────────
+    ChromaDB Storage
+      └─ Location: Local directory (e.g., ./chroma_db/)
+      └─ Backend: SQLite (included with ChromaDB)
+      └─ Persistence: Database persists across sessions (no re-indexing needed)
+
+    Source Documents
+      └─ Location: Local directory (e.g., ./data/)
+      └─ Required at runtime: No (only during initial ingestion)
+
+
+================================================================================
+9. INSTALLATION COMMANDS (WINDOWS 64-BIT, 8GB RAM)
+================================================================================
+
+# ─── Step 1: Enable WSL2 (Required for Ollama on Windows) ───
+# Run in PowerShell as Administrator:
+wsl --install
+
+# Restart computer after installation
+# After restart, open Ubuntu from Start Menu and create username/password
+
+# ─── Step 2: Install Python Libraries (in Windows) ───
+# Run in Command Prompt or PowerShell:
+pip install langchain==0.1.20
+pip install sentence-transformers==2.2.2
+pip install chromadb==0.4.24
+pip install PyMuPDF==1.23.26
+pip install pandas==2.0.3
+pip install regex==2023.12.25
+
+# ─── Step 3: Install Ollama (in WSL2/Ubuntu) ───
+# Open Ubuntu terminal from Start Menu
+# Run inside Ubuntu:
+curl -fsSL https://ollama.com/install.sh | sh
+
+# ─── Step 4: Download Quantized LLM Model (4-bit, ~4GB RAM) ───
+# Still in Ubuntu terminal:
+ollama pull mistral:7b-instruct-q4_0
+
+# Alternative (slightly larger but better performance):
+# ollama pull llama3:8b-instruct-q4_0
+
+# ⚠️ DO NOT download non-quantized models - they require 12GB+ RAM
+
+# ─── Step 5: Verify Installations ───
+# In Windows Command Prompt/PowerShell:
+python -c "import langchain, sentence_transformers, chromadb, fitz, pandas, regex; print('✓ All libraries installed')"
+
+# In Ubuntu (WSL2):
+ollama --version
+
+# ─── Step 6: Download Embedding Model (First Run Only) ───
+# This happens automatically on first use, but you can pre-download:
+python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('all-MiniLM-L6-v2')"
+
+
+================================================================================
+10. CRITICAL IMPLEMENTATION NOTES (8GB RAM OPTIMIZED)
+================================================================================
+
+10.1 Text Dataset Parsing Strategy
+     ────────────────────────────
+     Pattern: "Department: X. Field1: Value1. Field2: Value2. ..."
+     Approach:
+       1. Read file line-by-line
+       2. Skip blank lines
+       3. For each data line:
+          - Split by ". " delimiter
+          - Extract key-value pairs using regex: r"(\w+(?:\s+\w+)*): (.+)"
+          - Store in dictionary
+       4. Convert list of dictionaries to pandas DataFrame
+
+10.2 Memory-Efficient Embedding Strategy (8GB RAM)
+     ─────────────────────────────────────────────
+     Model: all-MiniLM-L6-v2 (REQUIRED - do not use larger models)
+       └─ Dimensions: 384 (vs 768 for all-mpnet-base-v2)
+       └─ RAM: ~100MB (vs ~400MB for all-mpnet-base-v2)
+       └─ Speed: 2x faster encoding
+       └─ Quality: 95% of all-mpnet performance, sufficient for enterprise docs
+
+     Batch Processing:
+       └─ Encode chunks in batches of 32 (not all at once)
+       └─ Example: model.encode(chunks[0:32]), then chunks[32:64], etc.
+       └─ Reason: Prevents RAM spike during embedding generation
+
+10.3 ChromaDB Configuration (Disk-Based, Not In-Memory)
+     ──────────────────────────────────────────────────
+     CRITICAL: Use persistent mode to keep vectors on disk, not RAM
+
+     Correct Setup:
+       import chromadb
+       client = chromadb.PersistentClient(path="./chroma_db")
+       collection = client.get_or_create_collection("unido_kb")
+
+     ⚠️ AVOID:
+       client = chromadb.Client()  # In-memory mode (loads all vectors to RAM)
+
+     Metadata Strategy:
+       └─ Collection: Single "unido_kb" collection
+       └─ Metadata: {"department": "Finance", "source": "UNIDO_Finance.pdf"}
+       └─ Filtering: collection.query(where={"department": "HR"})
+
+10.4 Ollama Inference Optimization (CPU-Only, 8GB RAM)
+     ─────────────────────────────────────────────────
+     Environment Variables (set in WSL2 Ubuntu before running Ollama):
+       export OLLAMA_NUM_PARALLEL=1        # Only 1 request at a time
+       export OLLAMA_MAX_LOADED_MODELS=1   # Only 1 model in RAM
+       export OLLAMA_NUM_GPU=0             # Force CPU (no GPU acceleration)
+
+     Ollama Server Start:
+       ollama serve  # Run this in Ubuntu terminal, keep it open
+
+     From Windows Python:
+       import requests
+       response = requests.post(
+           "http://localhost:11434/api/generate",
+           json={"model": "mistral:7b-instruct-q4_0", "prompt": query}
+       )
+
+10.5 System Resource Management (8GB RAM Survival Guide)
+     ───────────────────────────────────────────────────
+     Before Running RAG System:
+       1. Close Chrome/Edge (browsers consume 1-2GB RAM)
+       2. Close VS Code, PyCharm, or other IDEs if not needed
+       3. Close Spotify, Discord, Slack
+       4. Check Task Manager: Aim for <4GB RAM usage before starting
+
+     During Execution:
+       └─ Python script: ~1.5GB
+       └─ ChromaDB: ~500MB (disk-backed, not RAM)
+       └─ Ollama LLM: ~4GB
+       └─ Windows: ~2GB
+       └─ Total: ~8GB (tight but functional)
+
+     If RAM Runs Out:
+       └─ Windows will use page file (disk swap)
+       └─ Inference becomes slower but doesn't crash
+       └─ Ensure at least 10GB free disk space for swap
+
+10.6 WSL2 Memory Limit Configuration (OPTIONAL)
+     ──────────────────────────────────────────
+     By default, WSL2 can use 50% of Windows RAM (~4GB)
+     To allocate more to WSL2 (if needed for Ollama):
+
+     Create file: C:\Users\<YourUsername>\.wslconfig
+     Content:
+       [wsl2]
+       memory=6GB
+
+     Restart WSL2: wsl --shutdown (in PowerShell)
+
+10.7 Local Deployment Architecture (Windows + WSL2)
+     ──────────────────────────────────────────────
+     Windows Side:
+       └─ Python script (main RAG pipeline)
+       └─ ChromaDB (persistent storage at ./chroma_db/)
+       └─ Sentence-transformers (embedding model)
+       └─ Source files (3 PDFs + 3 text files)
+
+     WSL2 Ubuntu Side:
+       └─ Ollama server (localhost:11434)
+       └─ Mistral 7B model (quantized)
+
+     Communication:
+       Windows Python → HTTP POST → localhost:11434 → WSL2 Ollama → Response
+
+
+================================================================================
+11. OPTIONAL ENHANCEMENTS (NOT REQUIRED FOR MVP)
+================================================================================
+
+• Streamlit / Gradio: Web UI for interactive querying
+• python-dotenv: Environment variable management
+• Docker: Containerization for reproducible deployment
+• FastAPI: REST API wrapper for multi-user access
+• PostgreSQL + pgvector: Alternative vector DB for production scale
+
+
+================================================================================
+END OF REQUIREMENTS
+================================================================================
+
+System Configuration: Windows 64-bit + WSL2 Ubuntu
+Hardware: Intel i5-1235U, 8GB RAM (7.68GB usable), Intel Iris Xe, 289GB storage
+Critical Constraint: 8GB RAM (requires quantized models + memory optimization)
+
+Total Core Dependencies: 6 Python libraries + Ollama + WSL2
+Estimated Setup Time: 45-60 minutes (including WSL2 + model download)
+Total Disk Space Required: ~12GB
+  └─ WSL2 Ubuntu: ~2GB
+  └─ Ollama + Mistral 7B (quantized): ~4GB
+  └─ Python libraries: ~1.5GB
+  └─ ChromaDB vectors: ~500MB
+  └─ Source data: ~10MB
+  └─ Embedding model: ~100MB
+  └─ Headroom: ~4GB
+
+All requirements derived from:
+  • SYNOPSIS_II.pdf (methodology, scope, objectives, testing strategy)
+  • Finance_and_Accounting.txt (100 records, 9 fields, text format)
+  • Human_Resource_Management.txt (100 records, 11 fields, "Not Available" values)
+  • Manufacturing_and_Production.txt (100 records, 12 fields, negative growth values)
+  • UNIDO_Finance.pdf (18 pages, financial regulations)
+  • UNIDO_HR.pdf (22 pages, HR management framework)
+  • UNIDO_Manufacturing.pdf (11 pages, production methodology)
+  • User hardware specifications (Intel i5-1235U, 8GB RAM, Windows 64-bit)
+
+NO requirements were taken from the synopsis requirements section.
