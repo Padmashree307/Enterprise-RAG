@@ -270,8 +270,10 @@ else:
             
             # Sub-expander for sources if they exist
             if msg.get("sources"):
-                with st.expander("📚 Sources & References"):
-                    for s in msg["sources"]:
+                # Deduplicate sources by filename
+                unique_sources = {s['source_file']: s for s in msg["sources"]}.values()
+                with st.expander("Sources & References"):
+                    for s in unique_sources:
                         st.markdown(f"- **{s['department'].upper()}** — *{s['source_file']}*")
 
 st.markdown('</div>', unsafe_allow_html=True)
