@@ -1,0 +1,200 @@
+Department: Manufacturing and Production. Record_ID: MFG-0001. Region: Latin America & Caribbean. Development_Group: Industrial Economy. Industry_Sector: Electronics. Year: 2022. Quarter: Q3. IIP_Index_2015_100: 153.2. MVA_Weight_Pct: 0.036. QoQ_Growth_Pct: 1.2. YoY_Growth_Pct: 4.9. Seasonally_Adjusted: Yes. Data_Status: UNIDO Estimate.
+
+Department: Manufacturing and Production. Record_ID: MFG-0002. Region: Africa. Development_Group: Industrial Economy. Industry_Sector: Tobacco. Year: 2022. Quarter: Q3. IIP_Index_2015_100: 143.2. MVA_Weight_Pct: 0.018. QoQ_Growth_Pct: 1.8. YoY_Growth_Pct: -0.8. Seasonally_Adjusted: Yes. Data_Status: UNIDO Estimate.
+
+Department: Manufacturing and Production. Record_ID: MFG-0003. Region: Northern America. Development_Group: Industrial Economy. Industry_Sector: Fabricated Metal. Year: 2022. Quarter: Q1. IIP_Index_2015_100: 146.0. MVA_Weight_Pct: 0.172. QoQ_Growth_Pct: 2.6. YoY_Growth_Pct: 3.2. Seasonally_Adjusted: No. Data_Status: Reported.
+
+Department: Manufacturing and Production. Record_ID: MFG-0004. Region: Northern America. Development_Group: Industrial Economy. Industry_Sector: Machinery & Equipment. Year: 2020. Quarter: Q2. IIP_Index_2015_100: 157.3. MVA_Weight_Pct: 0.172. QoQ_Growth_Pct: -0.3. YoY_Growth_Pct: 1.8. Seasonally_Adjusted: Yes. Data_Status: Imputed.
+
+Department: Manufacturing and Production. Record_ID: MFG-0005. Region: Latin America & Caribbean. Development_Group: Industrial Economy. Industry_Sector: Non-Metallic Minerals. Year: 2022. Quarter: Q4. IIP_Index_2015_100: 140.9. MVA_Weight_Pct: 0.055. QoQ_Growth_Pct: -0.2. YoY_Growth_Pct: 2.8. Seasonally_Adjusted: Yes. Data_Status: Reported.
+
+Department: Manufacturing and Production. Record_ID: MFG-0006. Region: Africa. Development_Group: Industrial Economy. Industry_Sector: Wood & Wood Products. Year: 2023. Quarter: Q4. IIP_Index_2015_100: 104.4. MVA_Weight_Pct: 0.023. QoQ_Growth_Pct: 1.9. YoY_Growth_Pct: -2.4. Seasonally_Adjusted: Yes. Data_Status: Imputed.
+
+Department: Manufacturing and Production. Record_ID: MFG-0007. Region: Latin America & Caribbean. Development_Group: Industrial Economy. Industry_Sector: Paper. Year: 2020. Quarter: Q2. IIP_Index_2015_100: 131.2. MVA_Weight_Pct: 0.071. QoQ_Growth_Pct: 0.1. YoY_Growth_Pct: -3.9. Seasonally_Adjusted: Yes. Data_Status: UNIDO Estimate.
+
+Department: Manufacturing and Production. Record_ID: MFG-0008. Region: Europe. Development_Group: Industrial Economy. Industry_Sector: Tobacco. Year: 2022. Quarter: Q3. IIP_Index_2015_100: 151.9. MVA_Weight_Pct: 0.305. QoQ_Growth_Pct: 1.5. YoY_Growth_Pct: 4.5. Seasonally_Adjusted: Yes. Data_Status: Reported.
+
+Department: Manufacturing and Production. Record_ID: MFG-0009. Region: Asia & Oceania. Development_Group: Industrial Economy. Industry_Sector: Wearing Apparel. Year: 2021. Quarter: Q4. IIP_Index_2015_100: 139.3. MVA_Weight_Pct: 0.455. QoQ_Growth_Pct: 2.6. YoY_Growth_Pct: 1.6. Seasonally_Adjusted: Yes. Data_Status: Reported.
+
+Department: Manufacturing and Production. Record_ID: MFG-0010. Region: Africa. Development_Group: Industrial Economy. Industry_Sector: Chemicals. Year: 2023. Quarter: Q4. IIP_Index_2015_100: 156.5. MVA_Weight_Pct: 0.024. QoQ_Growth_Pct: -2.5. YoY_Growth_Pct: 6.7. Seasonally_Adjusted: Yes. Data_Status: UNIDO Estimate.
+
+Department: Manufacturing and Production. Record_ID: MFG-0011. Region: Latin America & Caribbean. Development_Group: Industrial Economy. Industry_Sector: Electrical Equipment. Year: 2022. Quarter: Q2. IIP_Index_2015_100: 157.4. MVA_Weight_Pct: 0.06. QoQ_Growth_Pct: -1.7. YoY_Growth_Pct: 6.6. Seasonally_Adjusted: Yes. Data_Status: Reported.
+
+Department: Manufacturing and Production. Record_ID: MFG-0012. Region: Africa. Development_Group: Industrial Economy. Industry_Sector: Electrical Equipment. Year: 2021. Quarter: Q3. IIP_Index_2015_100: 120.8. MVA_Weight_Pct: 0.022. QoQ_Growth_Pct: -0.6. YoY_Growth_Pct: 6.3. Seasonally_Adjusted: No. Data_Status: Reported.
+
+Department: Manufacturing and Production. Record_ID: MFG-0013. Region: Europe. Development_Group: Industrial Economy. Industry_Sector: Paper. Year: 2022. Quarter: Q2. IIP_Index_2015_100: 144.2. MVA_Weight_Pct: 0.153. QoQ_Growth_Pct: 1.5. YoY_Growth_Pct: 2.1. Seasonally_Adjusted: Yes. Data_Status: Reported.
+
+Department: Manufacturing and Production. Record_ID: MFG-0014. Region: Northern America. Development_Group: Industrial Economy. Industry_Sector: Furniture. Year: 2022. Quarter: Q1. IIP_Index_2015_100: 97.3. MVA_Weight_Pct: 0.123. QoQ_Growth_Pct: 1.5. YoY_Growth_Pct: 1.9. Seasonally_Adjusted: Yes. Data_Status: Imputed.
+
+Department: Manufacturing and Production. Record_ID: MFG-0015. Region: Latin America & Caribbean. Development_Group: Industrial Economy. Industry_Sector: Furniture. Year: 2020. Quarter: Q4. IIP_Index_2015_100: 138.6. MVA_Weight_Pct: 0.06. QoQ_Growth_Pct: -0.9. YoY_Growth_Pct: -2.1. Seasonally_Adjusted: No. Data_Status: UNIDO Estimate.
+
+Department: Manufacturing and Production. Record_ID: MFG-0016. Region: Europe. Development_Group: Industrial Economy. Industry_Sector: Machinery & Equipment. Year: 2020. Quarter: Q1. IIP_Index_2015_100: 128.2. MVA_Weight_Pct: 0.221. QoQ_Growth_Pct: -0.6. YoY_Growth_Pct: -3.3. Seasonally_Adjusted: No. Data_Status: UNIDO Estimate.
+
+Department: Manufacturing and Production. Record_ID: MFG-0017. Region: Europe. Development_Group: Industrial Economy. Industry_Sector: Basic Metals. Year: 2021. Quarter: Q3. IIP_Index_2015_100: 103.5. MVA_Weight_Pct: 0.18. QoQ_Growth_Pct: -2.1. YoY_Growth_Pct: 0.4. Seasonally_Adjusted: Yes. Data_Status: Reported.
+
+Department: Manufacturing and Production. Record_ID: MFG-0018. Region: Europe. Development_Group: Industrializing Economy. Industry_Sector: Basic Metals. Year: 2023. Quarter: Q2. IIP_Index_2015_100: 167.2. MVA_Weight_Pct: 0.284. QoQ_Growth_Pct: 3.5. YoY_Growth_Pct: 3.7. Seasonally_Adjusted: Yes. Data_Status: Reported.
+
+Department: Manufacturing and Production. Record_ID: MFG-0019. Region: Latin America & Caribbean. Development_Group: Industrial Economy. Industry_Sector: Electrical Equipment. Year: 2023. Quarter: Q4. IIP_Index_2015_100: 134.8. MVA_Weight_Pct: 0.036. QoQ_Growth_Pct: -0.2. YoY_Growth_Pct: 0.5. Seasonally_Adjusted: Yes. Data_Status: Imputed.
+
+Department: Manufacturing and Production. Record_ID: MFG-0020. Region: Europe. Development_Group: Industrial Economy. Industry_Sector: Beverages. Year: 2020. Quarter: Q3. IIP_Index_2015_100: 165.6. MVA_Weight_Pct: 0.255. QoQ_Growth_Pct: 0.3. YoY_Growth_Pct: 1.4. Seasonally_Adjusted: No. Data_Status: UNIDO Estimate.
+
+Department: Manufacturing and Production. Record_ID: MFG-0021. Region: Asia & Oceania. Development_Group: Industrial Economy. Industry_Sector: Coke & Refined Petroleum. Year: 2022. Quarter: Q4. IIP_Index_2015_100: 127.0. MVA_Weight_Pct: 0.537. QoQ_Growth_Pct: -1.6. YoY_Growth_Pct: 1.6. Seasonally_Adjusted: Yes. Data_Status: Imputed.
+
+Department: Manufacturing and Production. Record_ID: MFG-0022. Region: Latin America & Caribbean. Development_Group: Industrial Economy. Industry_Sector: Motor Vehicles. Year: 2022. Quarter: Q1. IIP_Index_2015_100: 102.7. MVA_Weight_Pct: 0.049. QoQ_Growth_Pct: 3.9. YoY_Growth_Pct: 1.7. Seasonally_Adjusted: Yes. Data_Status: Reported.
+
+Department: Manufacturing and Production. Record_ID: MFG-0023. Region: Asia & Oceania. Development_Group: Industrial Economy. Industry_Sector: Furniture. Year: 2023. Quarter: Q1. IIP_Index_2015_100: 106.0. MVA_Weight_Pct: 0.44. QoQ_Growth_Pct: 0.3. YoY_Growth_Pct: 0.5. Seasonally_Adjusted: Yes. Data_Status: Imputed.
+
+Department: Manufacturing and Production. Record_ID: MFG-0024. Region: Asia & Oceania. Development_Group: Industrial Economy. Industry_Sector: Rubber & Plastics. Year: 2022. Quarter: Q2. IIP_Index_2015_100: 144.3. MVA_Weight_Pct: 0.647. QoQ_Growth_Pct: 1.2. YoY_Growth_Pct: 1.1. Seasonally_Adjusted: Yes. Data_Status: UNIDO Estimate.
+
+Department: Manufacturing and Production. Record_ID: MFG-0025. Region: Northern America. Development_Group: Industrial Economy. Industry_Sector: Chemicals. Year: 2023. Quarter: Q1. IIP_Index_2015_100: 148.9. MVA_Weight_Pct: 0.267. QoQ_Growth_Pct: 1.1. YoY_Growth_Pct: 4.6. Seasonally_Adjusted: No. Data_Status: Imputed.
+
+Department: Manufacturing and Production. Record_ID: MFG-0026. Region: Africa. Development_Group: Industrializing Economy. Industry_Sector: Furniture. Year: 2023. Quarter: Q3. IIP_Index_2015_100: 157.6. MVA_Weight_Pct: 0.023. QoQ_Growth_Pct: 1.0. YoY_Growth_Pct: 3.7. Seasonally_Adjusted: Yes. Data_Status: Reported.
+
+Department: Manufacturing and Production. Record_ID: MFG-0027. Region: Northern America. Development_Group: Industrial Economy. Industry_Sector: Other Manufacturing. Year: 2023. Quarter: Q2. IIP_Index_2015_100: 114.4. MVA_Weight_Pct: 0.204. QoQ_Growth_Pct: 1.9. YoY_Growth_Pct: -2.7. Seasonally_Adjusted: Yes. Data_Status: UNIDO Estimate.
+
+Department: Manufacturing and Production. Record_ID: MFG-0028. Region: Asia & Oceania. Development_Group: Industrial Economy. Industry_Sector: Fabricated Metal. Year: 2021. Quarter: Q4. IIP_Index_2015_100: 143.9. MVA_Weight_Pct: 0.496. QoQ_Growth_Pct: 2.9. YoY_Growth_Pct: 3.7. Seasonally_Adjusted: No. Data_Status: Imputed.
+
+Department: Manufacturing and Production. Record_ID: MFG-0029. Region: Asia & Oceania. Development_Group: Industrial Economy. Industry_Sector: Motor Vehicles. Year: 2022. Quarter: Q4. IIP_Index_2015_100: 120.1. MVA_Weight_Pct: 0.375. QoQ_Growth_Pct: 3.4. YoY_Growth_Pct: -0.9. Seasonally_Adjusted: Yes. Data_Status: Imputed.
+
+Department: Manufacturing and Production. Record_ID: MFG-0030. Region: Europe. Development_Group: Industrializing Economy. Industry_Sector: Furniture. Year: 2023. Quarter: Q2. IIP_Index_2015_100: 117.3. MVA_Weight_Pct: 0.19. QoQ_Growth_Pct: 3.6. YoY_Growth_Pct: 6.8. Seasonally_Adjusted: No. Data_Status: Imputed.
+
+Department: Manufacturing and Production. Record_ID: MFG-0031. Region: Asia & Oceania. Development_Group: Industrial Economy. Industry_Sector: Electronics. Year: 2022. Quarter: Q4. IIP_Index_2015_100: 169.7. MVA_Weight_Pct: 0.628. QoQ_Growth_Pct: -1.1. YoY_Growth_Pct: -3.5. Seasonally_Adjusted: Yes. Data_Status: UNIDO Estimate.
+
+Department: Manufacturing and Production. Record_ID: MFG-0032. Region: Latin America & Caribbean. Development_Group: Industrial Economy. Industry_Sector: Non-Metallic Minerals. Year: 2021. Quarter: Q3. IIP_Index_2015_100: 171.4. MVA_Weight_Pct: 0.036. QoQ_Growth_Pct: 3.5. YoY_Growth_Pct: 2.9. Seasonally_Adjusted: No. Data_Status: Reported.
+
+Department: Manufacturing and Production. Record_ID: MFG-0033. Region: Asia & Oceania. Development_Group: Industrial Economy. Industry_Sector: Motor Vehicles. Year: 2022. Quarter: Q3. IIP_Index_2015_100: 144.3. MVA_Weight_Pct: 0.543. QoQ_Growth_Pct: -1.3. YoY_Growth_Pct: 3.0. Seasonally_Adjusted: Yes. Data_Status: Imputed.
+
+Department: Manufacturing and Production. Record_ID: MFG-0034. Region: Asia & Oceania. Development_Group: Industrial Economy. Industry_Sector: Beverages. Year: 2020. Quarter: Q4. IIP_Index_2015_100: 132.8. MVA_Weight_Pct: 0.582. QoQ_Growth_Pct: -2.0. YoY_Growth_Pct: 6.6. Seasonally_Adjusted: No. Data_Status: Reported.
+
+Department: Manufacturing and Production. Record_ID: MFG-0035. Region: Latin America & Caribbean. Development_Group: Industrial Economy. Industry_Sector: Other Manufacturing. Year: 2023. Quarter: Q4. IIP_Index_2015_100: 155.5. MVA_Weight_Pct: 0.045. QoQ_Growth_Pct: -1.0. YoY_Growth_Pct: -4.3. Seasonally_Adjusted: No. Data_Status: Imputed.
+
+Department: Manufacturing and Production. Record_ID: MFG-0036. Region: Northern America. Development_Group: Industrial Economy. Industry_Sector: Printing. Year: 2020. Quarter: Q2. IIP_Index_2015_100: 162.0. MVA_Weight_Pct: 0.26. QoQ_Growth_Pct: -2.7. YoY_Growth_Pct: 5.0. Seasonally_Adjusted: No. Data_Status: Reported.
+
+Department: Manufacturing and Production. Record_ID: MFG-0037. Region: Europe. Development_Group: Industrial Economy. Industry_Sector: Beverages. Year: 2020. Quarter: Q3. IIP_Index_2015_100: 103.6. MVA_Weight_Pct: 0.315. QoQ_Growth_Pct: -1.0. YoY_Growth_Pct: 6.9. Seasonally_Adjusted: Yes. Data_Status: UNIDO Estimate.
+
+Department: Manufacturing and Production. Record_ID: MFG-0038. Region: Asia & Oceania. Development_Group: Industrial Economy. Industry_Sector: Electrical Equipment. Year: 2023. Quarter: Q3. IIP_Index_2015_100: 104.0. MVA_Weight_Pct: 0.371. QoQ_Growth_Pct: 0.2. YoY_Growth_Pct: -1.9. Seasonally_Adjusted: Yes. Data_Status: Imputed.
+
+Department: Manufacturing and Production. Record_ID: MFG-0039. Region: Europe. Development_Group: Industrial Economy. Industry_Sector: Chemicals. Year: 2021. Quarter: Q2. IIP_Index_2015_100: 146.1. MVA_Weight_Pct: 0.21. QoQ_Growth_Pct: 0.0. YoY_Growth_Pct: -1.1. Seasonally_Adjusted: Yes. Data_Status: Reported.
+
+Department: Manufacturing and Production. Record_ID: MFG-0040. Region: Asia & Oceania. Development_Group: Industrializing Economy. Industry_Sector: Wearing Apparel. Year: 2023. Quarter: Q3. IIP_Index_2015_100: 95.5. MVA_Weight_Pct: 0.461. QoQ_Growth_Pct: 0.1. YoY_Growth_Pct: -1.8. Seasonally_Adjusted: Yes. Data_Status: Imputed.
+
+Department: Manufacturing and Production. Record_ID: MFG-0041. Region: Northern America. Development_Group: Industrial Economy. Industry_Sector: Food Products. Year: 2022. Quarter: Q3. IIP_Index_2015_100: 100.0. MVA_Weight_Pct: 0.134. QoQ_Growth_Pct: -0.9. YoY_Growth_Pct: -0.1. Seasonally_Adjusted: Yes. Data_Status: Imputed.
+
+Department: Manufacturing and Production. Record_ID: MFG-0042. Region: Europe. Development_Group: Industrial Economy. Industry_Sector: Textiles. Year: 2022. Quarter: Q3. IIP_Index_2015_100: 112.5. MVA_Weight_Pct: 0.16. QoQ_Growth_Pct: -1.9. YoY_Growth_Pct: 4.0. Seasonally_Adjusted: Yes. Data_Status: UNIDO Estimate.
+
+Department: Manufacturing and Production. Record_ID: MFG-0043. Region: Northern America. Development_Group: Industrial Economy. Industry_Sector: Electronics. Year: 2021. Quarter: Q2. IIP_Index_2015_100: 142.7. MVA_Weight_Pct: 0.237. QoQ_Growth_Pct: 0.7. YoY_Growth_Pct: 1.3. Seasonally_Adjusted: Yes. Data_Status: Imputed.
+
+Department: Manufacturing and Production. Record_ID: MFG-0044. Region: Africa. Development_Group: Industrial Economy. Industry_Sector: Beverages. Year: 2021. Quarter: Q2. IIP_Index_2015_100: 163.4. MVA_Weight_Pct: 0.018. QoQ_Growth_Pct: 1.8. YoY_Growth_Pct: 3.6. Seasonally_Adjusted: Yes. Data_Status: Imputed.
+
+Department: Manufacturing and Production. Record_ID: MFG-0045. Region: Latin America & Caribbean. Development_Group: Industrial Economy. Industry_Sector: Beverages. Year: 2023. Quarter: Q2. IIP_Index_2015_100: 131.5. MVA_Weight_Pct: 0.035. QoQ_Growth_Pct: 0.2. YoY_Growth_Pct: 4.7. Seasonally_Adjusted: No. Data_Status: UNIDO Estimate.
+
+Department: Manufacturing and Production. Record_ID: MFG-0046. Region: Europe. Development_Group: Industrial Economy. Industry_Sector: Food Products. Year: 2021. Quarter: Q1. IIP_Index_2015_100: 122.6. MVA_Weight_Pct: 0.148. QoQ_Growth_Pct: 4.0. YoY_Growth_Pct: 6.2. Seasonally_Adjusted: Yes. Data_Status: UNIDO Estimate.
+
+Department: Manufacturing and Production. Record_ID: MFG-0047. Region: Africa. Development_Group: Industrial Economy. Industry_Sector: Chemicals. Year: 2023. Quarter: Q2. IIP_Index_2015_100: 156.3. MVA_Weight_Pct: 0.026. QoQ_Growth_Pct: 1.5. YoY_Growth_Pct: 0.0. Seasonally_Adjusted: No. Data_Status: UNIDO Estimate.
+
+Department: Manufacturing and Production. Record_ID: MFG-0048. Region: Latin America & Caribbean. Development_Group: Industrial Economy. Industry_Sector: Basic Metals. Year: 2023. Quarter: Q1. IIP_Index_2015_100: 147.9. MVA_Weight_Pct: 0.056. QoQ_Growth_Pct: 1.6. YoY_Growth_Pct: -0.8. Seasonally_Adjusted: Yes. Data_Status: Imputed.
+
+Department: Manufacturing and Production. Record_ID: MFG-0049. Region: Latin America & Caribbean. Development_Group: Industrial Economy. Industry_Sector: Electrical Equipment. Year: 2021. Quarter: Q2. IIP_Index_2015_100: 155.5. MVA_Weight_Pct: 0.075. QoQ_Growth_Pct: 0.2. YoY_Growth_Pct: 3.6. Seasonally_Adjusted: Yes. Data_Status: UNIDO Estimate.
+
+Department: Manufacturing and Production. Record_ID: MFG-0050. Region: Asia & Oceania. Development_Group: Industrial Economy. Industry_Sector: Printing. Year: 2023. Quarter: Q3. IIP_Index_2015_100: 110.1. MVA_Weight_Pct: 0.66. QoQ_Growth_Pct: 2.4. YoY_Growth_Pct: -4.6. Seasonally_Adjusted: Yes. Data_Status: Imputed.
+
+Department: Manufacturing and Production. Record_ID: MFG-0051. Region: Africa. Development_Group: Industrial Economy. Industry_Sector: Printing. Year: 2021. Quarter: Q1. IIP_Index_2015_100: 97.7. MVA_Weight_Pct: 0.02. QoQ_Growth_Pct: 1.9. YoY_Growth_Pct: -4.4. Seasonally_Adjusted: No. Data_Status: UNIDO Estimate.
+
+Department: Manufacturing and Production. Record_ID: MFG-0052. Region: Latin America & Caribbean. Development_Group: Industrial Economy. Industry_Sector: Printing. Year: 2021. Quarter: Q1. IIP_Index_2015_100: 174.5. MVA_Weight_Pct: 0.043. QoQ_Growth_Pct: 3.4. YoY_Growth_Pct: 1.9. Seasonally_Adjusted: Yes. Data_Status: Imputed.
+
+Department: Manufacturing and Production. Record_ID: MFG-0053. Region: Europe. Development_Group: Industrializing Economy. Industry_Sector: Printing. Year: 2022. Quarter: Q2. IIP_Index_2015_100: 136.7. MVA_Weight_Pct: 0.211. QoQ_Growth_Pct: -1.1. YoY_Growth_Pct: 1.7. Seasonally_Adjusted: Yes. Data_Status: Imputed.
+
+Department: Manufacturing and Production. Record_ID: MFG-0054. Region: Asia & Oceania. Development_Group: Industrial Economy. Industry_Sector: Other Manufacturing. Year: 2023. Quarter: Q4. IIP_Index_2015_100: 122.6. MVA_Weight_Pct: 0.566. QoQ_Growth_Pct: -0.3. YoY_Growth_Pct: 1.3. Seasonally_Adjusted: Yes. Data_Status: UNIDO Estimate.
+
+Department: Manufacturing and Production. Record_ID: MFG-0055. Region: Asia & Oceania. Development_Group: Industrial Economy. Industry_Sector: Chemicals. Year: 2023. Quarter: Q2. IIP_Index_2015_100: 132.9. MVA_Weight_Pct: 0.65. QoQ_Growth_Pct: -0.9. YoY_Growth_Pct: 3.5. Seasonally_Adjusted: No. Data_Status: Reported.
+
+Department: Manufacturing and Production. Record_ID: MFG-0056. Region: Northern America. Development_Group: Industrial Economy. Industry_Sector: Fabricated Metal. Year: 2023. Quarter: Q2. IIP_Index_2015_100: 115.4. MVA_Weight_Pct: 0.167. QoQ_Growth_Pct: -2.4. YoY_Growth_Pct: 0.4. Seasonally_Adjusted: Yes. Data_Status: Imputed.
+
+Department: Manufacturing and Production. Record_ID: MFG-0057. Region: Asia & Oceania. Development_Group: Industrial Economy. Industry_Sector: Beverages. Year: 2022. Quarter: Q4. IIP_Index_2015_100: 143.2. MVA_Weight_Pct: 0.66. QoQ_Growth_Pct: -1.7. YoY_Growth_Pct: 4.1. Seasonally_Adjusted: No. Data_Status: Imputed.
+
+Department: Manufacturing and Production. Record_ID: MFG-0058. Region: Asia & Oceania. Development_Group: Industrial Economy. Industry_Sector: Electronics. Year: 2021. Quarter: Q3. IIP_Index_2015_100: 167.7. MVA_Weight_Pct: 0.391. QoQ_Growth_Pct: -1.7. YoY_Growth_Pct: 3.9. Seasonally_Adjusted: No. Data_Status: UNIDO Estimate.
+
+Department: Manufacturing and Production. Record_ID: MFG-0059. Region: Asia & Oceania. Development_Group: Industrial Economy. Industry_Sector: Furniture. Year: 2021. Quarter: Q4. IIP_Index_2015_100: 139.2. MVA_Weight_Pct: 0.62. QoQ_Growth_Pct: -0.3. YoY_Growth_Pct: 1.4. Seasonally_Adjusted: Yes. Data_Status: UNIDO Estimate.
+
+Department: Manufacturing and Production. Record_ID: MFG-0060. Region: Europe. Development_Group: Industrial Economy. Industry_Sector: Electrical Equipment. Year: 2023. Quarter: Q4. IIP_Index_2015_100: 173.5. MVA_Weight_Pct: 0.221. QoQ_Growth_Pct: 2.9. YoY_Growth_Pct: 6.0. Seasonally_Adjusted: Yes. Data_Status: UNIDO Estimate.
+
+Department: Manufacturing and Production. Record_ID: MFG-0061. Region: Africa. Development_Group: Industrial Economy. Industry_Sector: Other Transport Equipment. Year: 2021. Quarter: Q2. IIP_Index_2015_100: 139.3. MVA_Weight_Pct: 0.02. QoQ_Growth_Pct: 2.0. YoY_Growth_Pct: -1.5. Seasonally_Adjusted: Yes. Data_Status: Reported.
+
+Department: Manufacturing and Production. Record_ID: MFG-0062. Region: Latin America & Caribbean. Development_Group: Industrial Economy. Industry_Sector: Other Transport Equipment. Year: 2021. Quarter: Q4. IIP_Index_2015_100: 170.5. MVA_Weight_Pct: 0.047. QoQ_Growth_Pct: 2.3. YoY_Growth_Pct: 0.9. Seasonally_Adjusted: No. Data_Status: Imputed.
+
+Department: Manufacturing and Production. Record_ID: MFG-0063. Region: Latin America & Caribbean. Development_Group: Industrial Economy. Industry_Sector: Machinery & Equipment. Year: 2021. Quarter: Q3. IIP_Index_2015_100: 152.6. MVA_Weight_Pct: 0.053. QoQ_Growth_Pct: 3.4. YoY_Growth_Pct: 1.5. Seasonally_Adjusted: Yes. Data_Status: Reported.
+
+Department: Manufacturing and Production. Record_ID: MFG-0064. Region: Northern America. Development_Group: Industrial Economy. Industry_Sector: Beverages. Year: 2020. Quarter: Q1. IIP_Index_2015_100: 128.0. MVA_Weight_Pct: 0.246. QoQ_Growth_Pct: -1.4. YoY_Growth_Pct: 3.5. Seasonally_Adjusted: Yes. Data_Status: Imputed.
+
+Department: Manufacturing and Production. Record_ID: MFG-0065. Region: Latin America & Caribbean. Development_Group: Industrial Economy. Industry_Sector: Non-Metallic Minerals. Year: 2020. Quarter: Q4. IIP_Index_2015_100: 96.3. MVA_Weight_Pct: 0.055. QoQ_Growth_Pct: -0.1. YoY_Growth_Pct: -4.8. Seasonally_Adjusted: No. Data_Status: Imputed.
+
+Department: Manufacturing and Production. Record_ID: MFG-0066. Region: Europe. Development_Group: Industrial Economy. Industry_Sector: Food Products. Year: 2023. Quarter: Q2. IIP_Index_2015_100: 102.7. MVA_Weight_Pct: 0.163. QoQ_Growth_Pct: -1.7. YoY_Growth_Pct: 1.3. Seasonally_Adjusted: No. Data_Status: UNIDO Estimate.
+
+Department: Manufacturing and Production. Record_ID: MFG-0067. Region: Latin America & Caribbean. Development_Group: Industrial Economy. Industry_Sector: Tobacco. Year: 2022. Quarter: Q4. IIP_Index_2015_100: 114.5. MVA_Weight_Pct: 0.063. QoQ_Growth_Pct: -0.9. YoY_Growth_Pct: 4.9. Seasonally_Adjusted: Yes. Data_Status: Imputed.
+
+Department: Manufacturing and Production. Record_ID: MFG-0068. Region: Africa. Development_Group: Industrial Economy. Industry_Sector: Tobacco. Year: 2023. Quarter: Q4. IIP_Index_2015_100: 133.1. MVA_Weight_Pct: 0.021. QoQ_Growth_Pct: 1.9. YoY_Growth_Pct: -4.0. Seasonally_Adjusted: No. Data_Status: Imputed.
+
+Department: Manufacturing and Production. Record_ID: MFG-0069. Region: Europe. Development_Group: Industrial Economy. Industry_Sector: Other Transport Equipment. Year: 2020. Quarter: Q1. IIP_Index_2015_100: 167.1. MVA_Weight_Pct: 0.262. QoQ_Growth_Pct: 1.0. YoY_Growth_Pct: -1.7. Seasonally_Adjusted: No. Data_Status: Imputed.
+
+Department: Manufacturing and Production. Record_ID: MFG-0070. Region: Europe. Development_Group: Industrial Economy. Industry_Sector: Motor Vehicles. Year: 2020. Quarter: Q2. IIP_Index_2015_100: 120.2. MVA_Weight_Pct: 0.311. QoQ_Growth_Pct: 1.1. YoY_Growth_Pct: 4.0. Seasonally_Adjusted: No. Data_Status: UNIDO Estimate.
+
+Department: Manufacturing and Production. Record_ID: MFG-0071. Region: Africa. Development_Group: Industrial Economy. Industry_Sector: Chemicals. Year: 2021. Quarter: Q2. IIP_Index_2015_100: 163.0. MVA_Weight_Pct: 0.022. QoQ_Growth_Pct: 0.8. YoY_Growth_Pct: -0.4. Seasonally_Adjusted: No. Data_Status: Imputed.
+
+Department: Manufacturing and Production. Record_ID: MFG-0072. Region: Africa. Development_Group: Industrial Economy. Industry_Sector: Electrical Equipment. Year: 2022. Quarter: Q1. IIP_Index_2015_100: 113.6. MVA_Weight_Pct: 0.013. QoQ_Growth_Pct: 1.2. YoY_Growth_Pct: 2.4. Seasonally_Adjusted: Yes. Data_Status: UNIDO Estimate.
+
+Department: Manufacturing and Production. Record_ID: MFG-0073. Region: Africa. Development_Group: Industrial Economy. Industry_Sector: Other Manufacturing. Year: 2022. Quarter: Q4. IIP_Index_2015_100: 123.5. MVA_Weight_Pct: 0.026. QoQ_Growth_Pct: 0.0. YoY_Growth_Pct: 3.2. Seasonally_Adjusted: Yes. Data_Status: Reported.
+
+Department: Manufacturing and Production. Record_ID: MFG-0074. Region: Northern America. Development_Group: Industrial Economy. Industry_Sector: Chemicals. Year: 2021. Quarter: Q1. IIP_Index_2015_100: 107.3. MVA_Weight_Pct: 0.226. QoQ_Growth_Pct: 1.4. YoY_Growth_Pct: 3.9. Seasonally_Adjusted: Yes. Data_Status: Reported.
+
+Department: Manufacturing and Production. Record_ID: MFG-0075. Region: Africa. Development_Group: Industrial Economy. Industry_Sector: Food Products. Year: 2022. Quarter: Q4. IIP_Index_2015_100: 116.6. MVA_Weight_Pct: 0.013. QoQ_Growth_Pct: -1.7. YoY_Growth_Pct: 0.4. Seasonally_Adjusted: Yes. Data_Status: UNIDO Estimate.
+
+Department: Manufacturing and Production. Record_ID: MFG-0076. Region: Africa. Development_Group: Industrial Economy. Industry_Sector: Food Products. Year: 2020. Quarter: Q3. IIP_Index_2015_100: 142.8. MVA_Weight_Pct: 0.023. QoQ_Growth_Pct: 3.0. YoY_Growth_Pct: -4.9. Seasonally_Adjusted: Yes. Data_Status: Reported.
+
+Department: Manufacturing and Production. Record_ID: MFG-0077. Region: Northern America. Development_Group: Industrial Economy. Industry_Sector: Printing. Year: 2021. Quarter: Q4. IIP_Index_2015_100: 116.5. MVA_Weight_Pct: 0.157. QoQ_Growth_Pct: -2.0. YoY_Growth_Pct: -3.0. Seasonally_Adjusted: Yes. Data_Status: UNIDO Estimate.
+
+Department: Manufacturing and Production. Record_ID: MFG-0078. Region: Latin America & Caribbean. Development_Group: Industrializing Economy. Industry_Sector: Tobacco. Year: 2022. Quarter: Q3. IIP_Index_2015_100: 152.7. MVA_Weight_Pct: 0.054. QoQ_Growth_Pct: 1.3. YoY_Growth_Pct: 0.5. Seasonally_Adjusted: Yes. Data_Status: Reported.
+
+Department: Manufacturing and Production. Record_ID: MFG-0079. Region: Latin America & Caribbean. Development_Group: Industrial Economy. Industry_Sector: Rubber & Plastics. Year: 2023. Quarter: Q3. IIP_Index_2015_100: 129.4. MVA_Weight_Pct: 0.068. QoQ_Growth_Pct: 1.6. YoY_Growth_Pct: 2.1. Seasonally_Adjusted: Yes. Data_Status: Imputed.
+
+Department: Manufacturing and Production. Record_ID: MFG-0080. Region: Asia & Oceania. Development_Group: Industrializing Economy. Industry_Sector: Electronics. Year: 2022. Quarter: Q2. IIP_Index_2015_100: 172.5. MVA_Weight_Pct: 0.423. QoQ_Growth_Pct: 1.9. YoY_Growth_Pct: 0.9. Seasonally_Adjusted: Yes. Data_Status: Reported.
+
+Department: Manufacturing and Production. Record_ID: MFG-0081. Region: Europe. Development_Group: Industrial Economy. Industry_Sector: Basic Metals. Year: 2022. Quarter: Q4. IIP_Index_2015_100: 169.6. MVA_Weight_Pct: 0.172. QoQ_Growth_Pct: 4.0. YoY_Growth_Pct: -2.8. Seasonally_Adjusted: No. Data_Status: Reported.
+
+Department: Manufacturing and Production. Record_ID: MFG-0082. Region: Latin America & Caribbean. Development_Group: Industrial Economy. Industry_Sector: Paper. Year: 2023. Quarter: Q3. IIP_Index_2015_100: 100.5. MVA_Weight_Pct: 0.069. QoQ_Growth_Pct: 2.6. YoY_Growth_Pct: 3.1. Seasonally_Adjusted: Yes. Data_Status: UNIDO Estimate.
+
+Department: Manufacturing and Production. Record_ID: MFG-0083. Region: Asia & Oceania. Development_Group: Industrial Economy. Industry_Sector: Coke & Refined Petroleum. Year: 2021. Quarter: Q4. IIP_Index_2015_100: 100.9. MVA_Weight_Pct: 0.707. QoQ_Growth_Pct: 0.4. YoY_Growth_Pct: -0.2. Seasonally_Adjusted: Yes. Data_Status: Imputed.
+
+Department: Manufacturing and Production. Record_ID: MFG-0084. Region: Latin America & Caribbean. Development_Group: Industrial Economy. Industry_Sector: Motor Vehicles. Year: 2020. Quarter: Q3. IIP_Index_2015_100: 160.0. MVA_Weight_Pct: 0.058. QoQ_Growth_Pct: 3.4. YoY_Growth_Pct: -3.7. Seasonally_Adjusted: Yes. Data_Status: Imputed.
+
+Department: Manufacturing and Production. Record_ID: MFG-0085. Region: Europe. Development_Group: Industrializing Economy. Industry_Sector: Wood & Wood Products. Year: 2020. Quarter: Q4. IIP_Index_2015_100: 121.5. MVA_Weight_Pct: 0.281. QoQ_Growth_Pct: -2.3. YoY_Growth_Pct: -3.8. Seasonally_Adjusted: Yes. Data_Status: Imputed.
+
+Department: Manufacturing and Production. Record_ID: MFG-0086. Region: Northern America. Development_Group: Industrial Economy. Industry_Sector: Motor Vehicles. Year: 2021. Quarter: Q4. IIP_Index_2015_100: 132.0. MVA_Weight_Pct: 0.221. QoQ_Growth_Pct: 1.8. YoY_Growth_Pct: -3.2. Seasonally_Adjusted: No. Data_Status: UNIDO Estimate.
+
+Department: Manufacturing and Production. Record_ID: MFG-0087. Region: Africa. Development_Group: Industrial Economy. Industry_Sector: Chemicals. Year: 2023. Quarter: Q1. IIP_Index_2015_100: 170.3. MVA_Weight_Pct: 0.014. QoQ_Growth_Pct: -0.8. YoY_Growth_Pct: 0.5. Seasonally_Adjusted: Yes. Data_Status: UNIDO Estimate.
+
+Department: Manufacturing and Production. Record_ID: MFG-0088. Region: Europe. Development_Group: Industrial Economy. Industry_Sector: Electronics. Year: 2020. Quarter: Q4. IIP_Index_2015_100: 131.2. MVA_Weight_Pct: 0.148. QoQ_Growth_Pct: -2.7. YoY_Growth_Pct: 3.5. Seasonally_Adjusted: Yes. Data_Status: UNIDO Estimate.
+
+Department: Manufacturing and Production. Record_ID: MFG-0089. Region: Africa. Development_Group: Industrial Economy. Industry_Sector: Wood & Wood Products. Year: 2021. Quarter: Q2. IIP_Index_2015_100: 121.5. MVA_Weight_Pct: 0.018. QoQ_Growth_Pct: 0.2. YoY_Growth_Pct: 4.6. Seasonally_Adjusted: Yes. Data_Status: Reported.
+
+Department: Manufacturing and Production. Record_ID: MFG-0090. Region: Latin America & Caribbean. Development_Group: Industrial Economy. Industry_Sector: Basic Metals. Year: 2020. Quarter: Q2. IIP_Index_2015_100: 129.4. MVA_Weight_Pct: 0.033. QoQ_Growth_Pct: -1.5. YoY_Growth_Pct: -1.7. Seasonally_Adjusted: No. Data_Status: Reported.
+
+Department: Manufacturing and Production. Record_ID: MFG-0091. Region: Northern America. Development_Group: Industrial Economy. Industry_Sector: Textiles. Year: 2021. Quarter: Q3. IIP_Index_2015_100: 131.6. MVA_Weight_Pct: 0.156. QoQ_Growth_Pct: 3.0. YoY_Growth_Pct: 1.3. Seasonally_Adjusted: Yes. Data_Status: Imputed.
+
+Department: Manufacturing and Production. Record_ID: MFG-0092. Region: Latin America & Caribbean. Development_Group: Industrial Economy. Industry_Sector: Furniture. Year: 2023. Quarter: Q1. IIP_Index_2015_100: 162.6. MVA_Weight_Pct: 0.059. QoQ_Growth_Pct: 2.7. YoY_Growth_Pct: 3.5. Seasonally_Adjusted: Yes. Data_Status: Imputed.
+
+Department: Manufacturing and Production. Record_ID: MFG-0093. Region: Northern America. Development_Group: Industrial Economy. Industry_Sector: Tobacco. Year: 2021. Quarter: Q3. IIP_Index_2015_100: 119.4. MVA_Weight_Pct: 0.144. QoQ_Growth_Pct: 1.9. YoY_Growth_Pct: 1.1. Seasonally_Adjusted: Yes. Data_Status: Reported.
+
+Department: Manufacturing and Production. Record_ID: MFG-0094. Region: Northern America. Development_Group: Industrial Economy. Industry_Sector: Basic Metals. Year: 2023. Quarter: Q2. IIP_Index_2015_100: 138.0. MVA_Weight_Pct: 0.258. QoQ_Growth_Pct: 3.5. YoY_Growth_Pct: -2.9. Seasonally_Adjusted: Yes. Data_Status: UNIDO Estimate.
+
+Department: Manufacturing and Production. Record_ID: MFG-0095. Region: Asia & Oceania. Development_Group: Industrial Economy. Industry_Sector: Wood & Wood Products. Year: 2022. Quarter: Q4. IIP_Index_2015_100: 164.2. MVA_Weight_Pct: 0.692. QoQ_Growth_Pct: 0.4. YoY_Growth_Pct: -2.7. Seasonally_Adjusted: Yes. Data_Status: Imputed.
+
+Department: Manufacturing and Production. Record_ID: MFG-0096. Region: Northern America. Development_Group: Industrial Economy. Industry_Sector: Other Manufacturing. Year: 2023. Quarter: Q4. IIP_Index_2015_100: 128.3. MVA_Weight_Pct: 0.245. QoQ_Growth_Pct: 0.4. YoY_Growth_Pct: -4.0. Seasonally_Adjusted: Yes. Data_Status: Reported.
+
+Department: Manufacturing and Production. Record_ID: MFG-0097. Region: Europe. Development_Group: Industrial Economy. Industry_Sector: Beverages. Year: 2022. Quarter: Q2. IIP_Index_2015_100: 108.5. MVA_Weight_Pct: 0.219. QoQ_Growth_Pct: 2.2. YoY_Growth_Pct: 4.2. Seasonally_Adjusted: Yes. Data_Status: Reported.
+
+Department: Manufacturing and Production. Record_ID: MFG-0098. Region: Northern America. Development_Group: Industrial Economy. Industry_Sector: Textiles. Year: 2022. Quarter: Q3. IIP_Index_2015_100: 155.5. MVA_Weight_Pct: 0.233. QoQ_Growth_Pct: 0.1. YoY_Growth_Pct: -2.4. Seasonally_Adjusted: Yes. Data_Status: Imputed.
+
+Department: Manufacturing and Production. Record_ID: MFG-0099. Region: Asia & Oceania. Development_Group: Industrial Economy. Industry_Sector: Chemicals. Year: 2020. Quarter: Q4. IIP_Index_2015_100: 164.0. MVA_Weight_Pct: 0.34. QoQ_Growth_Pct: 3.1. YoY_Growth_Pct: -3.6. Seasonally_Adjusted: No. Data_Status: Reported.
+
+Department: Manufacturing and Production. Record_ID: MFG-0100. Region: Northern America. Development_Group: Industrial Economy. Industry_Sector: Non-Metallic Minerals. Year: 2023. Quarter: Q2. IIP_Index_2015_100: 157.8. MVA_Weight_Pct: 0.241. QoQ_Growth_Pct: 2.6. YoY_Growth_Pct: 1.8. Seasonally_Adjusted: Yes. Data_Status: Imputed.
+

@@ -1,0 +1,200 @@
+Department: Human Resource Management. Employee_ID: EMP-0001. Division: Technical Cooperation. Gender: Male. Grade: G-6. Category: General Service. Appointment: Project Personnel (200). Hire_Date: 2015-10-19. Yrs_in_Grade: 5.0. Perf_Rating: 4. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0002. Division: Administration. Gender: Female. Grade: P-2. Category: Professional. Appointment: Fixed-Term (100). Hire_Date: 2017-12-24. Yrs_in_Grade: 5.9. Perf_Rating: 2. Promo_Eligible: Yes. Promotion_Type: Job Series.
+
+Department: Human Resource Management. Employee_ID: EMP-0003. Division: Statistics. Gender: Female. Grade: G-5. Category: General Service. Appointment: Short-Term (300). Hire_Date: 2019-12-04. Yrs_in_Grade: 1.3. Perf_Rating: 3. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0004. Division: Administration. Gender: Female. Grade: P-4. Category: Professional. Appointment: Fixed-Term (100). Hire_Date: 2021-09-15. Yrs_in_Grade: 0.8. Perf_Rating: 3. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0005. Division: Administration. Gender: Female. Grade: P-1. Category: Professional. Appointment: Fixed-Term (100). Hire_Date: 2022-07-24. Yrs_in_Grade: 5.9. Perf_Rating: 3. Promo_Eligible: Yes. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0006. Division: Administration. Gender: Male. Grade: D-2. Category: Professional. Appointment: Fixed-Term (100). Hire_Date: 2020-10-26. Yrs_in_Grade: 4.7. Perf_Rating: 4. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0007. Division: Industrial Policy. Gender: Female. Grade: D-2. Category: Professional. Appointment: Fixed-Term (100). Hire_Date: 2016-01-09. Yrs_in_Grade: 3.6. Perf_Rating: 3. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0008. Division: Technical Cooperation. Gender: Male. Grade: G-3. Category: General Service. Appointment: Fixed-Term (100). Hire_Date: 2020-07-22. Yrs_in_Grade: 2.4. Perf_Rating: 4. Promo_Eligible: Yes. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0009. Division: Technical Cooperation. Gender: Female. Grade: P-3. Category: Professional. Appointment: Fixed-Term (100). Hire_Date: 2023-08-31. Yrs_in_Grade: 3.1. Perf_Rating: 3. Promo_Eligible: Yes. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0010. Division: Capacity Development. Gender: Male. Grade: P-5. Category: Professional. Appointment: Fixed-Term (100). Hire_Date: 2023-06-26. Yrs_in_Grade: 3.7. Perf_Rating: 3. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0011. Division: Capacity Development. Gender: Male. Grade: P-2. Category: Professional. Appointment: Short-Term (300). Hire_Date: 2019-11-30. Yrs_in_Grade: 6.2. Perf_Rating: 3. Promo_Eligible: Yes. Promotion_Type: Job Series.
+
+Department: Human Resource Management. Employee_ID: EMP-0012. Division: Capacity Development. Gender: Male. Grade: P-1. Category: Professional. Appointment: Fixed-Term (100). Hire_Date: 2016-01-17. Yrs_in_Grade: 2.0. Perf_Rating: 4. Promo_Eligible: Yes. Promotion_Type: Job Series.
+
+Department: Human Resource Management. Employee_ID: EMP-0013. Division: Capacity Development. Gender: Female. Grade: D-1. Category: Professional. Appointment: Fixed-Term (100). Hire_Date: 2022-11-29. Yrs_in_Grade: 2.3. Perf_Rating: 4. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0014. Division: Statistics. Gender: Female. Grade: P-2. Category: Professional. Appointment: Fixed-Term (100). Hire_Date: 2021-09-21. Yrs_in_Grade: 3.8. Perf_Rating: 4. Promo_Eligible: Yes. Promotion_Type: Reclassification.
+
+Department: Human Resource Management. Employee_ID: EMP-0015. Division: Capacity Development. Gender: Female. Grade: G-5. Category: General Service. Appointment: Fixed-Term (100). Hire_Date: 2015-01-11. Yrs_in_Grade: 2.3. Perf_Rating: 3. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0016. Division: Capacity Development. Gender: Male. Grade: P-4. Category: Professional. Appointment: Fixed-Term (100). Hire_Date: 2021-03-10. Yrs_in_Grade: 5.5. Perf_Rating: 3. Promo_Eligible: Yes. Promotion_Type: Reclassification.
+
+Department: Human Resource Management. Employee_ID: EMP-0017. Division: Technical Cooperation. Gender: Female. Grade: P-2. Category: Professional. Appointment: Project Personnel (200). Hire_Date: 2019-08-10. Yrs_in_Grade: 0.8. Perf_Rating: 4. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0018. Division: Industrial Policy. Gender: Female. Grade: G-6. Category: General Service. Appointment: Short-Term (300). Hire_Date: 2020-07-21. Yrs_in_Grade: 6.8. Perf_Rating: 2. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0019. Division: Industrial Policy. Gender: Male. Grade: G-4. Category: General Service. Appointment: Fixed-Term (100). Hire_Date: 2020-02-15. Yrs_in_Grade: 0.6. Perf_Rating: 2. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0020. Division: Statistics. Gender: Female. Grade: P-3. Category: Professional. Appointment: Fixed-Term (100). Hire_Date: 2022-10-08. Yrs_in_Grade: 3.1. Perf_Rating: 2. Promo_Eligible: Yes. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0021. Division: Industrial Policy. Gender: Male. Grade: G-4. Category: General Service. Appointment: Project Personnel (200). Hire_Date: 2015-05-28. Yrs_in_Grade: 4.5. Perf_Rating: 2. Promo_Eligible: Yes. Promotion_Type: Reclassification.
+
+Department: Human Resource Management. Employee_ID: EMP-0022. Division: Statistics. Gender: Male. Grade: P-1. Category: Professional. Appointment: Project Personnel (200). Hire_Date: 2022-11-23. Yrs_in_Grade: 6.2. Perf_Rating: 3. Promo_Eligible: Yes. Promotion_Type: Placement.
+
+Department: Human Resource Management. Employee_ID: EMP-0023. Division: Capacity Development. Gender: Male. Grade: G-3. Category: General Service. Appointment: Fixed-Term (100). Hire_Date: 2019-10-31. Yrs_in_Grade: 1.4. Perf_Rating: 3. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0024. Division: Capacity Development. Gender: Male. Grade: P-5. Category: Professional. Appointment: Project Personnel (200). Hire_Date: 2021-12-13. Yrs_in_Grade: 4.9. Perf_Rating: 3. Promo_Eligible: Yes. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0025. Division: Administration. Gender: Female. Grade: P-3. Category: Professional. Appointment: Fixed-Term (100). Hire_Date: 2022-06-24. Yrs_in_Grade: 0.6. Perf_Rating: 4. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0026. Division: Technical Cooperation. Gender: Female. Grade: P-4. Category: Professional. Appointment: Short-Term (300). Hire_Date: 2021-08-03. Yrs_in_Grade: 2.4. Perf_Rating: 4. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0027. Division: Administration. Gender: Female. Grade: G-2. Category: General Service. Appointment: Short-Term (300). Hire_Date: 2020-06-02. Yrs_in_Grade: 1.2. Perf_Rating: 3. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0028. Division: Administration. Gender: Male. Grade: D-1. Category: Professional. Appointment: Fixed-Term (100). Hire_Date: 2022-05-20. Yrs_in_Grade: 3.1. Perf_Rating: 1. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0029. Division: Capacity Development. Gender: Female. Grade: G-3. Category: General Service. Appointment: Project Personnel (200). Hire_Date: 2017-07-31. Yrs_in_Grade: 4.4. Perf_Rating: 3. Promo_Eligible: Yes. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0030. Division: Capacity Development. Gender: Female. Grade: G-6. Category: General Service. Appointment: Fixed-Term (100). Hire_Date: 2018-06-19. Yrs_in_Grade: 5.6. Perf_Rating: 1. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0031. Division: Administration. Gender: Female. Grade: P-3. Category: Professional. Appointment: Fixed-Term (100). Hire_Date: 2019-08-29. Yrs_in_Grade: 1.6. Perf_Rating: 2. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0032. Division: Statistics. Gender: Female. Grade: P-3. Category: Professional. Appointment: Project Personnel (200). Hire_Date: 2017-11-18. Yrs_in_Grade: 6.4. Perf_Rating: 4. Promo_Eligible: Yes. Promotion_Type: Merit.
+
+Department: Human Resource Management. Employee_ID: EMP-0033. Division: Administration. Gender: Female. Grade: G-4. Category: General Service. Appointment: Short-Term (300). Hire_Date: 2016-07-30. Yrs_in_Grade: 5.4. Perf_Rating: 2. Promo_Eligible: Yes. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0034. Division: Administration. Gender: Female. Grade: D-2. Category: Professional. Appointment: Fixed-Term (100). Hire_Date: 2017-12-19. Yrs_in_Grade: 4.0. Perf_Rating: 3. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0035. Division: Administration. Gender: Female. Grade: D-1. Category: Professional. Appointment: Short-Term (300). Hire_Date: 2016-03-19. Yrs_in_Grade: 4.9. Perf_Rating: 3. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0036. Division: Industrial Policy. Gender: Male. Grade: P-1. Category: Professional. Appointment: Fixed-Term (100). Hire_Date: 2020-03-16. Yrs_in_Grade: 6.4. Perf_Rating: 3. Promo_Eligible: Yes. Promotion_Type: Placement.
+
+Department: Human Resource Management. Employee_ID: EMP-0037. Division: Administration. Gender: Female. Grade: P-4. Category: Professional. Appointment: Fixed-Term (100). Hire_Date: 2017-08-19. Yrs_in_Grade: 6.3. Perf_Rating: 2. Promo_Eligible: Yes. Promotion_Type: Reclassification.
+
+Department: Human Resource Management. Employee_ID: EMP-0038. Division: Statistics. Gender: Female. Grade: D-1. Category: Professional. Appointment: Project Personnel (200). Hire_Date: 2019-08-27. Yrs_in_Grade: 4.8. Perf_Rating: 4. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0039. Division: Administration. Gender: Female. Grade: P-3. Category: Professional. Appointment: Fixed-Term (100). Hire_Date: 2019-12-27. Yrs_in_Grade: 6.7. Perf_Rating: 4. Promo_Eligible: Yes. Promotion_Type: Job Series.
+
+Department: Human Resource Management. Employee_ID: EMP-0040. Division: Industrial Policy. Gender: Female. Grade: G-6. Category: General Service. Appointment: Fixed-Term (100). Hire_Date: 2019-06-19. Yrs_in_Grade: 2.3. Perf_Rating: 4. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0041. Division: Administration. Gender: Male. Grade: G-6. Category: General Service. Appointment: Fixed-Term (100). Hire_Date: 2015-03-29. Yrs_in_Grade: 0.8. Perf_Rating: 3. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0042. Division: Statistics. Gender: Male. Grade: D-2. Category: Professional. Appointment: Project Personnel (200). Hire_Date: 2017-04-28. Yrs_in_Grade: 4.3. Perf_Rating: 4. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0043. Division: Capacity Development. Gender: Male. Grade: G-5. Category: General Service. Appointment: Fixed-Term (100). Hire_Date: 2016-08-15. Yrs_in_Grade: 6.9. Perf_Rating: 3. Promo_Eligible: Yes. Promotion_Type: Job Series.
+
+Department: Human Resource Management. Employee_ID: EMP-0044. Division: Capacity Development. Gender: Male. Grade: D-2. Category: Professional. Appointment: Project Personnel (200). Hire_Date: 2021-08-08. Yrs_in_Grade: 2.6. Perf_Rating: 2. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0045. Division: Administration. Gender: Male. Grade: G-5. Category: General Service. Appointment: Fixed-Term (100). Hire_Date: 2015-09-18. Yrs_in_Grade: 3.6. Perf_Rating: 4. Promo_Eligible: Yes. Promotion_Type: Job Series.
+
+Department: Human Resource Management. Employee_ID: EMP-0046. Division: Industrial Policy. Gender: Male. Grade: D-2. Category: Professional. Appointment: Short-Term (300). Hire_Date: 2022-05-22. Yrs_in_Grade: 3.9. Perf_Rating: 3. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0047. Division: Statistics. Gender: Male. Grade: G-4. Category: General Service. Appointment: Fixed-Term (100). Hire_Date: 2016-03-18. Yrs_in_Grade: 3.7. Perf_Rating: 4. Promo_Eligible: Yes. Promotion_Type: Job Series.
+
+Department: Human Resource Management. Employee_ID: EMP-0048. Division: Administration. Gender: Female. Grade: G-1. Category: General Service. Appointment: Fixed-Term (100). Hire_Date: 2022-01-01. Yrs_in_Grade: 4.6. Perf_Rating: 3. Promo_Eligible: Yes. Promotion_Type: Reclassification.
+
+Department: Human Resource Management. Employee_ID: EMP-0049. Division: Technical Cooperation. Gender: Male. Grade: P-4. Category: Professional. Appointment: Fixed-Term (100). Hire_Date: 2019-10-29. Yrs_in_Grade: 1.1. Perf_Rating: 4. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0050. Division: Statistics. Gender: Female. Grade: P-2. Category: Professional. Appointment: Fixed-Term (100). Hire_Date: 2020-02-01. Yrs_in_Grade: 3.1. Perf_Rating: 4. Promo_Eligible: Yes. Promotion_Type: Reclassification.
+
+Department: Human Resource Management. Employee_ID: EMP-0051. Division: Industrial Policy. Gender: Female. Grade: G-6. Category: General Service. Appointment: Short-Term (300). Hire_Date: 2015-10-02. Yrs_in_Grade: 1.1. Perf_Rating: 2. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0052. Division: Industrial Policy. Gender: Female. Grade: G-3. Category: General Service. Appointment: Project Personnel (200). Hire_Date: 2021-03-28. Yrs_in_Grade: 0.9. Perf_Rating: 4. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0053. Division: Statistics. Gender: Male. Grade: D-2. Category: Professional. Appointment: Fixed-Term (100). Hire_Date: 2023-06-01. Yrs_in_Grade: 3.2. Perf_Rating: 4. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0054. Division: Industrial Policy. Gender: Male. Grade: G-3. Category: General Service. Appointment: Fixed-Term (100). Hire_Date: 2020-09-09. Yrs_in_Grade: 1.9. Perf_Rating: 3. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0055. Division: Administration. Gender: Female. Grade: P-5. Category: Professional. Appointment: Fixed-Term (100). Hire_Date: 2023-07-21. Yrs_in_Grade: 2.3. Perf_Rating: 2. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0056. Division: Statistics. Gender: Male. Grade: G-5. Category: General Service. Appointment: Fixed-Term (100). Hire_Date: 2022-03-17. Yrs_in_Grade: 4.1. Perf_Rating: 3. Promo_Eligible: Yes. Promotion_Type: Placement.
+
+Department: Human Resource Management. Employee_ID: EMP-0057. Division: Industrial Policy. Gender: Female. Grade: G-3. Category: General Service. Appointment: Short-Term (300). Hire_Date: 2018-12-08. Yrs_in_Grade: 0.5. Perf_Rating: 4. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0058. Division: Technical Cooperation. Gender: Female. Grade: D-1. Category: Professional. Appointment: Short-Term (300). Hire_Date: 2016-01-11. Yrs_in_Grade: 5.3. Perf_Rating: 2. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0059. Division: Capacity Development. Gender: Male. Grade: P-3. Category: Professional. Appointment: Fixed-Term (100). Hire_Date: 2018-08-21. Yrs_in_Grade: 5.5. Perf_Rating: 3. Promo_Eligible: Yes. Promotion_Type: Job Series.
+
+Department: Human Resource Management. Employee_ID: EMP-0060. Division: Administration. Gender: Female. Grade: P-5. Category: Professional. Appointment: Fixed-Term (100). Hire_Date: 2015-12-01. Yrs_in_Grade: 2.3. Perf_Rating: 3. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0061. Division: Administration. Gender: Female. Grade: P-3. Category: Professional. Appointment: Fixed-Term (100). Hire_Date: 2020-09-29. Yrs_in_Grade: 1.2. Perf_Rating: 3. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0062. Division: Capacity Development. Gender: Male. Grade: D-1. Category: Professional. Appointment: Fixed-Term (100). Hire_Date: 2017-06-22. Yrs_in_Grade: 3.1. Perf_Rating: 3. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0063. Division: Capacity Development. Gender: Female. Grade: P-2. Category: Professional. Appointment: Project Personnel (200). Hire_Date: 2023-07-28. Yrs_in_Grade: 2.2. Perf_Rating: 3. Promo_Eligible: Yes. Promotion_Type: Job Series.
+
+Department: Human Resource Management. Employee_ID: EMP-0064. Division: Technical Cooperation. Gender: Male. Grade: P-5. Category: Professional. Appointment: Project Personnel (200). Hire_Date: 2020-08-11. Yrs_in_Grade: 4.1. Perf_Rating: 3. Promo_Eligible: Yes. Promotion_Type: Reclassification.
+
+Department: Human Resource Management. Employee_ID: EMP-0065. Division: Administration. Gender: Female. Grade: G-1. Category: General Service. Appointment: Fixed-Term (100). Hire_Date: 2020-02-27. Yrs_in_Grade: 6.5. Perf_Rating: 4. Promo_Eligible: Yes. Promotion_Type: Merit.
+
+Department: Human Resource Management. Employee_ID: EMP-0066. Division: Administration. Gender: Male. Grade: D-1. Category: Professional. Appointment: Fixed-Term (100). Hire_Date: 2016-04-16. Yrs_in_Grade: 3.1. Perf_Rating: 4. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0067. Division: Administration. Gender: Female. Grade: D-1. Category: Professional. Appointment: Short-Term (300). Hire_Date: 2015-12-27. Yrs_in_Grade: 3.3. Perf_Rating: 2. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0068. Division: Administration. Gender: Male. Grade: P-1. Category: Professional. Appointment: Fixed-Term (100). Hire_Date: 2018-06-24. Yrs_in_Grade: 5.3. Perf_Rating: 2. Promo_Eligible: Yes. Promotion_Type: Placement.
+
+Department: Human Resource Management. Employee_ID: EMP-0069. Division: Capacity Development. Gender: Male. Grade: D-2. Category: Professional. Appointment: Fixed-Term (100). Hire_Date: 2023-02-27. Yrs_in_Grade: 6.7. Perf_Rating: 3. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0070. Division: Capacity Development. Gender: Male. Grade: P-3. Category: Professional. Appointment: Fixed-Term (100). Hire_Date: 2021-10-03. Yrs_in_Grade: 1.5. Perf_Rating: 4. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0071. Division: Statistics. Gender: Female. Grade: G-6. Category: General Service. Appointment: Fixed-Term (100). Hire_Date: 2023-06-18. Yrs_in_Grade: 4.2. Perf_Rating: 3. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0072. Division: Statistics. Gender: Male. Grade: P-1. Category: Professional. Appointment: Fixed-Term (100). Hire_Date: 2022-01-30. Yrs_in_Grade: 2.5. Perf_Rating: 3. Promo_Eligible: Yes. Promotion_Type: Job Series.
+
+Department: Human Resource Management. Employee_ID: EMP-0073. Division: Administration. Gender: Male. Grade: P-1. Category: Professional. Appointment: Fixed-Term (100). Hire_Date: 2018-03-21. Yrs_in_Grade: 1.0. Perf_Rating: 4. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0074. Division: Technical Cooperation. Gender: Male. Grade: P-4. Category: Professional. Appointment: Fixed-Term (100). Hire_Date: 2021-03-20. Yrs_in_Grade: 6.7. Perf_Rating: 4. Promo_Eligible: Yes. Promotion_Type: Merit.
+
+Department: Human Resource Management. Employee_ID: EMP-0075. Division: Administration. Gender: Male. Grade: G-5. Category: General Service. Appointment: Fixed-Term (100). Hire_Date: 2018-08-09. Yrs_in_Grade: 4.4. Perf_Rating: 3. Promo_Eligible: Yes. Promotion_Type: Reclassification.
+
+Department: Human Resource Management. Employee_ID: EMP-0076. Division: Statistics. Gender: Male. Grade: G-1. Category: General Service. Appointment: Fixed-Term (100). Hire_Date: 2019-11-29. Yrs_in_Grade: 6.9. Perf_Rating: 3. Promo_Eligible: Yes. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0077. Division: Industrial Policy. Gender: Female. Grade: P-3. Category: Professional. Appointment: Fixed-Term (100). Hire_Date: 2023-09-08. Yrs_in_Grade: 2.7. Perf_Rating: 3. Promo_Eligible: Yes. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0078. Division: Statistics. Gender: Male. Grade: P-5. Category: Professional. Appointment: Fixed-Term (100). Hire_Date: 2018-03-09. Yrs_in_Grade: 2.1. Perf_Rating: 4. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0079. Division: Capacity Development. Gender: Female. Grade: D-1. Category: Professional. Appointment: Fixed-Term (100). Hire_Date: 2018-12-03. Yrs_in_Grade: 2.5. Perf_Rating: 3. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0080. Division: Technical Cooperation. Gender: Male. Grade: P-1. Category: Professional. Appointment: Fixed-Term (100). Hire_Date: 2019-03-23. Yrs_in_Grade: 4.7. Perf_Rating: 3. Promo_Eligible: Yes. Promotion_Type: Job Series.
+
+Department: Human Resource Management. Employee_ID: EMP-0081. Division: Capacity Development. Gender: Male. Grade: P-1. Category: Professional. Appointment: Fixed-Term (100). Hire_Date: 2017-01-08. Yrs_in_Grade: 6.7. Perf_Rating: 3. Promo_Eligible: Yes. Promotion_Type: Placement.
+
+Department: Human Resource Management. Employee_ID: EMP-0082. Division: Statistics. Gender: Male. Grade: P-3. Category: Professional. Appointment: Project Personnel (200). Hire_Date: 2016-02-19. Yrs_in_Grade: 3.8. Perf_Rating: 3. Promo_Eligible: Yes. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0083. Division: Technical Cooperation. Gender: Male. Grade: G-5. Category: General Service. Appointment: Fixed-Term (100). Hire_Date: 2019-03-24. Yrs_in_Grade: 1.5. Perf_Rating: 2. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0084. Division: Administration. Gender: Male. Grade: P-3. Category: Professional. Appointment: Fixed-Term (100). Hire_Date: 2017-08-30. Yrs_in_Grade: 6.8. Perf_Rating: 3. Promo_Eligible: Yes. Promotion_Type: Reclassification.
+
+Department: Human Resource Management. Employee_ID: EMP-0085. Division: Technical Cooperation. Gender: Female. Grade: D-2. Category: Professional. Appointment: Project Personnel (200). Hire_Date: 2017-03-05. Yrs_in_Grade: 2.9. Perf_Rating: 4. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0086. Division: Statistics. Gender: Male. Grade: G-4. Category: General Service. Appointment: Fixed-Term (100). Hire_Date: 2019-09-11. Yrs_in_Grade: 6.8. Perf_Rating: 4. Promo_Eligible: Yes. Promotion_Type: Merit.
+
+Department: Human Resource Management. Employee_ID: EMP-0087. Division: Statistics. Gender: Male. Grade: P-4. Category: Professional. Appointment: Project Personnel (200). Hire_Date: 2021-03-21. Yrs_in_Grade: 6.6. Perf_Rating: 4. Promo_Eligible: Yes. Promotion_Type: Merit.
+
+Department: Human Resource Management. Employee_ID: EMP-0088. Division: Technical Cooperation. Gender: Male. Grade: P-2. Category: Professional. Appointment: Fixed-Term (100). Hire_Date: 2020-10-03. Yrs_in_Grade: 1.5. Perf_Rating: 3. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0089. Division: Capacity Development. Gender: Female. Grade: G-1. Category: General Service. Appointment: Fixed-Term (100). Hire_Date: 2019-06-12. Yrs_in_Grade: 3.8. Perf_Rating: 2. Promo_Eligible: Yes. Promotion_Type: Placement.
+
+Department: Human Resource Management. Employee_ID: EMP-0090. Division: Capacity Development. Gender: Female. Grade: P-1. Category: Professional. Appointment: Project Personnel (200). Hire_Date: 2022-04-16. Yrs_in_Grade: 2.7. Perf_Rating: 2. Promo_Eligible: Yes. Promotion_Type: Job Series.
+
+Department: Human Resource Management. Employee_ID: EMP-0091. Division: Administration. Gender: Male. Grade: G-4. Category: General Service. Appointment: Fixed-Term (100). Hire_Date: 2015-01-22. Yrs_in_Grade: 6.4. Perf_Rating: 1. Promo_Eligible: Yes. Promotion_Type: Job Series.
+
+Department: Human Resource Management. Employee_ID: EMP-0092. Division: Technical Cooperation. Gender: Male. Grade: G-5. Category: General Service. Appointment: Fixed-Term (100). Hire_Date: 2016-03-31. Yrs_in_Grade: 5.5. Perf_Rating: 2. Promo_Eligible: Yes. Promotion_Type: G-to-P.
+
+Department: Human Resource Management. Employee_ID: EMP-0093. Division: Capacity Development. Gender: Male. Grade: G-5. Category: General Service. Appointment: Fixed-Term (100). Hire_Date: 2016-03-30. Yrs_in_Grade: 5.9. Perf_Rating: 3. Promo_Eligible: Yes. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0094. Division: Industrial Policy. Gender: Female. Grade: P-1. Category: Professional. Appointment: Fixed-Term (100). Hire_Date: 2017-09-12. Yrs_in_Grade: 4.2. Perf_Rating: 2. Promo_Eligible: Yes. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0095. Division: Industrial Policy. Gender: Female. Grade: G-5. Category: General Service. Appointment: Fixed-Term (100). Hire_Date: 2020-09-10. Yrs_in_Grade: 4.1. Perf_Rating: 3. Promo_Eligible: Yes. Promotion_Type: Reclassification.
+
+Department: Human Resource Management. Employee_ID: EMP-0096. Division: Industrial Policy. Gender: Male. Grade: P-1. Category: Professional. Appointment: Fixed-Term (100). Hire_Date: 2023-03-22. Yrs_in_Grade: 4.8. Perf_Rating: 2. Promo_Eligible: Yes. Promotion_Type: Reclassification.
+
+Department: Human Resource Management. Employee_ID: EMP-0097. Division: Capacity Development. Gender: Male. Grade: P-3. Category: Professional. Appointment: Project Personnel (200). Hire_Date: 2016-12-18. Yrs_in_Grade: 5.9. Perf_Rating: 3. Promo_Eligible: Yes. Promotion_Type: Reclassification.
+
+Department: Human Resource Management. Employee_ID: EMP-0098. Division: Industrial Policy. Gender: Male. Grade: D-2. Category: Professional. Appointment: Short-Term (300). Hire_Date: 2015-06-01. Yrs_in_Grade: 2.4. Perf_Rating: 1. Promo_Eligible: No. Promotion_Type: Not Available.
+
+Department: Human Resource Management. Employee_ID: EMP-0099. Division: Industrial Policy. Gender: Female. Grade: P-3. Category: Professional. Appointment: Fixed-Term (100). Hire_Date: 2021-02-02. Yrs_in_Grade: 3.6. Perf_Rating: 1. Promo_Eligible: Yes. Promotion_Type: Reclassification.
+
+Department: Human Resource Management. Employee_ID: EMP-0100. Division: Capacity Development. Gender: Female. Grade: G-3. Category: General Service. Appointment: Fixed-Term (100). Hire_Date: 2023-12-19. Yrs_in_Grade: 2.9. Perf_Rating: 4. Promo_Eligible: Yes. Promotion_Type: Reclassification.
+

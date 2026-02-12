@@ -1,0 +1,200 @@
+Department: Finance and Accounting. Transaction_ID: FIN-0001. Date: 2024-04-24. Biennium: 2024-2025. Budget_Type: Regular Budget. Fund_Type: Industrial Development Fund. Category: Appropriation. Amount_EUR: 561910.79. Status: Approved. Approved_By: Conference.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0002. Date: 2025-03-08. Biennium: 2024-2025. Budget_Type: Regular Budget. Fund_Type: General Fund. Category: Contribution. Amount_EUR: 550501.75. Status: Approved. Approved_By: Director-General.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0003. Date: 2025-10-27. Biennium: 2024-2025. Budget_Type: Operational Budget. Fund_Type: Working Capital Fund. Category: Expenditure. Amount_EUR: 1475217.88. Status: Approved. Approved_By: Director-General.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0004. Date: 2025-03-08. Biennium: 2024-2025. Budget_Type: Operational Budget. Fund_Type: Industrial Development Fund. Category: Appropriation. Amount_EUR: 542207.84. Status: Under Audit. Approved_By: Conference.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0005. Date: 2021-01-24. Biennium: 2020-2021. Budget_Type: Regular Budget. Fund_Type: Industrial Development Fund. Category: Obligation. Amount_EUR: 1511296.45. Status: Approved. Approved_By: Board.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0006. Date: 2024-05-07. Biennium: 2024-2025. Budget_Type: Operational Budget. Fund_Type: General Fund. Category: Reimbursement. Amount_EUR: 736479.81. Status: Under Audit. Approved_By: Director-General.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0007. Date: 2024-03-12. Biennium: 2024-2025. Budget_Type: Regular Budget. Fund_Type: Working Capital Fund. Category: Obligation. Amount_EUR: 2463127.69. Status: Pending Review. Approved_By: Conference.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0008. Date: 2022-10-12. Biennium: 2022-2023. Budget_Type: Operational Budget. Fund_Type: Industrial Development Fund. Category: Appropriation. Amount_EUR: 928601.51. Status: Pending Review. Approved_By: Board.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0009. Date: 2025-11-30. Biennium: 2024-2025. Budget_Type: Regular Budget. Fund_Type: Special Account. Category: Investment Income. Amount_EUR: 431990.93. Status: Pending Review. Approved_By: Director-General.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0010. Date: 2023-01-24. Biennium: 2022-2023. Budget_Type: Operational Budget. Fund_Type: Special Account. Category: Appropriation. Amount_EUR: 1713112.56. Status: Approved. Approved_By: Conference.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0011. Date: 2020-11-19. Biennium: 2020-2021. Budget_Type: Operational Budget. Fund_Type: Industrial Development Fund. Category: Contribution. Amount_EUR: 531402.19. Status: Under Audit. Approved_By: Director-General.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0012. Date: 2025-05-26. Biennium: 2024-2025. Budget_Type: Operational Budget. Fund_Type: Trust Fund. Category: Appropriation. Amount_EUR: 665876.02. Status: Pending Review. Approved_By: Board.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0013. Date: 2025-08-21. Biennium: 2024-2025. Budget_Type: Operational Budget. Fund_Type: Special Account. Category: Expenditure. Amount_EUR: 908181.13. Status: Pending Review. Approved_By: Programme & Budget Committee.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0014. Date: 2020-02-18. Biennium: 2020-2021. Budget_Type: Regular Budget. Fund_Type: Working Capital Fund. Category: Investment Income. Amount_EUR: 404155.09. Status: Surrendered. Approved_By: Director-General.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0015. Date: 2023-01-26. Biennium: 2022-2023. Budget_Type: Operational Budget. Fund_Type: Special Account. Category: Obligation. Amount_EUR: 2427840.55. Status: Approved. Approved_By: Conference.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0016. Date: 2025-07-03. Biennium: 2024-2025. Budget_Type: Operational Budget. Fund_Type: Industrial Development Fund. Category: Contribution. Amount_EUR: 737282.82. Status: Pending Review. Approved_By: Programme & Budget Committee.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0017. Date: 2020-09-26. Biennium: 2020-2021. Budget_Type: Regular Budget. Fund_Type: Special Account. Category: Contribution. Amount_EUR: 2176943.83. Status: Under Audit. Approved_By: Director-General.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0018. Date: 2021-01-17. Biennium: 2020-2021. Budget_Type: Regular Budget. Fund_Type: Special Account. Category: Reimbursement. Amount_EUR: 2296641.27. Status: Under Audit. Approved_By: Programme & Budget Committee.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0019. Date: 2020-04-24. Biennium: 2020-2021. Budget_Type: Operational Budget. Fund_Type: Industrial Development Fund. Category: Appropriation. Amount_EUR: 149523.29. Status: Approved. Approved_By: Conference.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0020. Date: 2025-05-12. Biennium: 2024-2025. Budget_Type: Regular Budget. Fund_Type: Special Account. Category: Appropriation. Amount_EUR: 325336.7. Status: Surrendered. Approved_By: Conference.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0021. Date: 2023-06-25. Biennium: 2022-2023. Budget_Type: Operational Budget. Fund_Type: Working Capital Fund. Category: Reimbursement. Amount_EUR: 1889386.67. Status: Pending Review. Approved_By: Programme & Budget Committee.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0022. Date: 2023-11-19. Biennium: 2022-2023. Budget_Type: Operational Budget. Fund_Type: Trust Fund. Category: Reimbursement. Amount_EUR: 1131457.92. Status: Pending Review. Approved_By: Director-General.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0023. Date: 2020-12-12. Biennium: 2020-2021. Budget_Type: Regular Budget. Fund_Type: Special Account. Category: Reimbursement. Amount_EUR: 579136.26. Status: Pending Review. Approved_By: Director-General.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0024. Date: 2021-12-25. Biennium: 2020-2021. Budget_Type: Regular Budget. Fund_Type: Working Capital Fund. Category: Contribution. Amount_EUR: 2264022.93. Status: Under Audit. Approved_By: Director-General.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0025. Date: 2024-08-31. Biennium: 2024-2025. Budget_Type: Operational Budget. Fund_Type: Trust Fund. Category: Appropriation. Amount_EUR: 1350388.66. Status: Surrendered. Approved_By: Conference.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0026. Date: 2023-02-21. Biennium: 2022-2023. Budget_Type: Regular Budget. Fund_Type: General Fund. Category: Contribution. Amount_EUR: 1649161.96. Status: Under Audit. Approved_By: Programme & Budget Committee.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0027. Date: 2023-04-24. Biennium: 2022-2023. Budget_Type: Regular Budget. Fund_Type: General Fund. Category: Contribution. Amount_EUR: 1009540.1. Status: Under Audit. Approved_By: Director-General.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0028. Date: 2020-07-15. Biennium: 2020-2021. Budget_Type: Regular Budget. Fund_Type: Special Account. Category: Expenditure. Amount_EUR: 354754.83. Status: Pending Review. Approved_By: Programme & Budget Committee.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0029. Date: 2022-09-13. Biennium: 2022-2023. Budget_Type: Regular Budget. Fund_Type: Trust Fund. Category: Reimbursement. Amount_EUR: 249282.28. Status: Approved. Approved_By: Director-General.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0030. Date: 2020-06-19. Biennium: 2020-2021. Budget_Type: Operational Budget. Fund_Type: Trust Fund. Category: Expenditure. Amount_EUR: 538299.51. Status: Surrendered. Approved_By: Director-General.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0031. Date: 2021-01-23. Biennium: 2020-2021. Budget_Type: Regular Budget. Fund_Type: Trust Fund. Category: Obligation. Amount_EUR: 2316662.59. Status: Surrendered. Approved_By: Board.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0032. Date: 2023-12-15. Biennium: 2022-2023. Budget_Type: Operational Budget. Fund_Type: Working Capital Fund. Category: Appropriation. Amount_EUR: 745286.02. Status: Approved. Approved_By: Conference.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0033. Date: 2024-11-17. Biennium: 2024-2025. Budget_Type: Regular Budget. Fund_Type: General Fund. Category: Reimbursement. Amount_EUR: 1194587.35. Status: Pending Review. Approved_By: Director-General.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0034. Date: 2024-03-23. Biennium: 2024-2025. Budget_Type: Regular Budget. Fund_Type: General Fund. Category: Reimbursement. Amount_EUR: 174562.35. Status: Pending Review. Approved_By: Programme & Budget Committee.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0035. Date: 2021-08-06. Biennium: 2020-2021. Budget_Type: Regular Budget. Fund_Type: Special Account. Category: Reimbursement. Amount_EUR: 104155.45. Status: Approved. Approved_By: Programme & Budget Committee.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0036. Date: 2025-08-20. Biennium: 2024-2025. Budget_Type: Operational Budget. Fund_Type: Industrial Development Fund. Category: Appropriation. Amount_EUR: 1675966.31. Status: Under Audit. Approved_By: Conference.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0037. Date: 2023-02-10. Biennium: 2022-2023. Budget_Type: Regular Budget. Fund_Type: Industrial Development Fund. Category: Expenditure. Amount_EUR: 793862.1. Status: Approved. Approved_By: Director-General.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0038. Date: 2023-09-29. Biennium: 2022-2023. Budget_Type: Regular Budget. Fund_Type: General Fund. Category: Reimbursement. Amount_EUR: 536820.01. Status: Under Audit. Approved_By: Director-General.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0039. Date: 2022-03-12. Biennium: 2022-2023. Budget_Type: Regular Budget. Fund_Type: Industrial Development Fund. Category: Obligation. Amount_EUR: 398578.35. Status: Under Audit. Approved_By: Conference.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0040. Date: 2025-07-21. Biennium: 2024-2025. Budget_Type: Operational Budget. Fund_Type: General Fund. Category: Appropriation. Amount_EUR: 664842.47. Status: Approved. Approved_By: Conference.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0041. Date: 2022-10-16. Biennium: 2022-2023. Budget_Type: Regular Budget. Fund_Type: Industrial Development Fund. Category: Appropriation. Amount_EUR: 1720305.34. Status: Under Audit. Approved_By: Board.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0042. Date: 2022-02-22. Biennium: 2022-2023. Budget_Type: Regular Budget. Fund_Type: Trust Fund. Category: Obligation. Amount_EUR: 114996.47. Status: Under Audit. Approved_By: Conference.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0043. Date: 2024-09-25. Biennium: 2024-2025. Budget_Type: Regular Budget. Fund_Type: Trust Fund. Category: Reimbursement. Amount_EUR: 1765640.28. Status: Approved. Approved_By: Director-General.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0044. Date: 2021-12-08. Biennium: 2020-2021. Budget_Type: Regular Budget. Fund_Type: Special Account. Category: Contribution. Amount_EUR: 2087314.57. Status: Pending Review. Approved_By: Programme & Budget Committee.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0045. Date: 2020-02-12. Biennium: 2020-2021. Budget_Type: Operational Budget. Fund_Type: Industrial Development Fund. Category: Contribution. Amount_EUR: 2247816.97. Status: Pending Review. Approved_By: Director-General.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0046. Date: 2024-04-15. Biennium: 2024-2025. Budget_Type: Operational Budget. Fund_Type: Special Account. Category: Expenditure. Amount_EUR: 2434723.37. Status: Pending Review. Approved_By: Director-General.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0047. Date: 2020-06-30. Biennium: 2020-2021. Budget_Type: Operational Budget. Fund_Type: General Fund. Category: Appropriation. Amount_EUR: 1842728.36. Status: Under Audit. Approved_By: Board.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0048. Date: 2024-09-11. Biennium: 2024-2025. Budget_Type: Operational Budget. Fund_Type: Working Capital Fund. Category: Investment Income. Amount_EUR: 274698.59. Status: Approved. Approved_By: Programme & Budget Committee.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0049. Date: 2020-07-23. Biennium: 2020-2021. Budget_Type: Operational Budget. Fund_Type: Industrial Development Fund. Category: Obligation. Amount_EUR: 2052238.27. Status: Pending Review. Approved_By: Conference.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0050. Date: 2021-11-06. Biennium: 2020-2021. Budget_Type: Regular Budget. Fund_Type: Trust Fund. Category: Obligation. Amount_EUR: 700114.64. Status: Approved. Approved_By: Board.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0051. Date: 2023-10-19. Biennium: 2022-2023. Budget_Type: Operational Budget. Fund_Type: Special Account. Category: Obligation. Amount_EUR: 2348396.67. Status: Approved. Approved_By: Board.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0052. Date: 2021-08-17. Biennium: 2020-2021. Budget_Type: Operational Budget. Fund_Type: General Fund. Category: Contribution. Amount_EUR: 1493445.28. Status: Under Audit. Approved_By: Programme & Budget Committee.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0053. Date: 2023-09-13. Biennium: 2022-2023. Budget_Type: Regular Budget. Fund_Type: Trust Fund. Category: Reimbursement. Amount_EUR: 479246.54. Status: Approved. Approved_By: Programme & Budget Committee.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0054. Date: 2021-06-16. Biennium: 2020-2021. Budget_Type: Regular Budget. Fund_Type: Industrial Development Fund. Category: Expenditure. Amount_EUR: 179584.66. Status: Under Audit. Approved_By: Programme & Budget Committee.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0055. Date: 2024-05-07. Biennium: 2024-2025. Budget_Type: Operational Budget. Fund_Type: Special Account. Category: Obligation. Amount_EUR: 1668897.8. Status: Under Audit. Approved_By: Board.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0056. Date: 2024-10-29. Biennium: 2024-2025. Budget_Type: Regular Budget. Fund_Type: Working Capital Fund. Category: Expenditure. Amount_EUR: 1663998.94. Status: Surrendered. Approved_By: Director-General.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0057. Date: 2025-08-05. Biennium: 2024-2025. Budget_Type: Operational Budget. Fund_Type: Trust Fund. Category: Reimbursement. Amount_EUR: 2085144.3. Status: Under Audit. Approved_By: Programme & Budget Committee.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0058. Date: 2021-03-16. Biennium: 2020-2021. Budget_Type: Operational Budget. Fund_Type: Trust Fund. Category: Expenditure. Amount_EUR: 1108188.7. Status: Pending Review. Approved_By: Programme & Budget Committee.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0059. Date: 2024-06-22. Biennium: 2024-2025. Budget_Type: Regular Budget. Fund_Type: Industrial Development Fund. Category: Reimbursement. Amount_EUR: 1661315.32. Status: Under Audit. Approved_By: Director-General.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0060. Date: 2021-11-19. Biennium: 2020-2021. Budget_Type: Operational Budget. Fund_Type: Working Capital Fund. Category: Appropriation. Amount_EUR: 372648.14. Status: Approved. Approved_By: Conference.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0061. Date: 2023-09-18. Biennium: 2022-2023. Budget_Type: Regular Budget. Fund_Type: Trust Fund. Category: Expenditure. Amount_EUR: 2215911.59. Status: Pending Review. Approved_By: Programme & Budget Committee.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0062. Date: 2023-02-14. Biennium: 2022-2023. Budget_Type: Regular Budget. Fund_Type: Working Capital Fund. Category: Investment Income. Amount_EUR: 1720617.92. Status: Approved. Approved_By: Programme & Budget Committee.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0063. Date: 2020-06-29. Biennium: 2020-2021. Budget_Type: Operational Budget. Fund_Type: General Fund. Category: Reimbursement. Amount_EUR: 626749.71. Status: Approved. Approved_By: Programme & Budget Committee.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0064. Date: 2021-04-20. Biennium: 2020-2021. Budget_Type: Operational Budget. Fund_Type: Trust Fund. Category: Reimbursement. Amount_EUR: 2038441.24. Status: Surrendered. Approved_By: Programme & Budget Committee.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0065. Date: 2021-05-01. Biennium: 2020-2021. Budget_Type: Operational Budget. Fund_Type: Industrial Development Fund. Category: Appropriation. Amount_EUR: 2100457.91. Status: Under Audit. Approved_By: Board.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0066. Date: 2024-09-01. Biennium: 2024-2025. Budget_Type: Operational Budget. Fund_Type: Trust Fund. Category: Contribution. Amount_EUR: 1785294.43. Status: Pending Review. Approved_By: Programme & Budget Committee.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0067. Date: 2022-11-24. Biennium: 2022-2023. Budget_Type: Regular Budget. Fund_Type: Working Capital Fund. Category: Appropriation. Amount_EUR: 581997.39. Status: Pending Review. Approved_By: Conference.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0068. Date: 2021-02-28. Biennium: 2020-2021. Budget_Type: Operational Budget. Fund_Type: Industrial Development Fund. Category: Reimbursement. Amount_EUR: 1167481.14. Status: Approved. Approved_By: Director-General.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0069. Date: 2023-02-03. Biennium: 2022-2023. Budget_Type: Regular Budget. Fund_Type: Special Account. Category: Expenditure. Amount_EUR: 1195064.43. Status: Under Audit. Approved_By: Programme & Budget Committee.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0070. Date: 2023-03-06. Biennium: 2022-2023. Budget_Type: Regular Budget. Fund_Type: Trust Fund. Category: Appropriation. Amount_EUR: 685973.6. Status: Surrendered. Approved_By: Conference.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0071. Date: 2022-12-11. Biennium: 2022-2023. Budget_Type: Operational Budget. Fund_Type: Working Capital Fund. Category: Expenditure. Amount_EUR: 2299256.34. Status: Approved. Approved_By: Programme & Budget Committee.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0072. Date: 2025-07-31. Biennium: 2024-2025. Budget_Type: Regular Budget. Fund_Type: General Fund. Category: Investment Income. Amount_EUR: 1074388.86. Status: Surrendered. Approved_By: Director-General.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0073. Date: 2020-09-23. Biennium: 2020-2021. Budget_Type: Operational Budget. Fund_Type: Industrial Development Fund. Category: Appropriation. Amount_EUR: 1139474.82. Status: Under Audit. Approved_By: Board.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0074. Date: 2023-03-08. Biennium: 2022-2023. Budget_Type: Operational Budget. Fund_Type: General Fund. Category: Expenditure. Amount_EUR: 53361.3. Status: Approved. Approved_By: Programme & Budget Committee.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0075. Date: 2021-10-27. Biennium: 2020-2021. Budget_Type: Regular Budget. Fund_Type: General Fund. Category: Contribution. Amount_EUR: 2374281.27. Status: Pending Review. Approved_By: Director-General.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0076. Date: 2024-06-05. Biennium: 2024-2025. Budget_Type: Regular Budget. Fund_Type: Working Capital Fund. Category: Expenditure. Amount_EUR: 1675299.82. Status: Pending Review. Approved_By: Programme & Budget Committee.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0077. Date: 2024-09-19. Biennium: 2024-2025. Budget_Type: Operational Budget. Fund_Type: Working Capital Fund. Category: Reimbursement. Amount_EUR: 1520082.5. Status: Approved. Approved_By: Director-General.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0078. Date: 2022-04-21. Biennium: 2022-2023. Budget_Type: Regular Budget. Fund_Type: Industrial Development Fund. Category: Reimbursement. Amount_EUR: 1694981.48. Status: Surrendered. Approved_By: Programme & Budget Committee.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0079. Date: 2024-07-22. Biennium: 2024-2025. Budget_Type: Regular Budget. Fund_Type: Special Account. Category: Investment Income. Amount_EUR: 2077276.23. Status: Pending Review. Approved_By: Director-General.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0080. Date: 2024-11-04. Biennium: 2024-2025. Budget_Type: Regular Budget. Fund_Type: Special Account. Category: Contribution. Amount_EUR: 871273.39. Status: Surrendered. Approved_By: Programme & Budget Committee.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0081. Date: 2021-06-02. Biennium: 2020-2021. Budget_Type: Operational Budget. Fund_Type: General Fund. Category: Expenditure. Amount_EUR: 2056715.64. Status: Approved. Approved_By: Programme & Budget Committee.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0082. Date: 2023-10-13. Biennium: 2022-2023. Budget_Type: Operational Budget. Fund_Type: Working Capital Fund. Category: Expenditure. Amount_EUR: 444461.72. Status: Under Audit. Approved_By: Programme & Budget Committee.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0083. Date: 2023-03-23. Biennium: 2022-2023. Budget_Type: Operational Budget. Fund_Type: Industrial Development Fund. Category: Appropriation. Amount_EUR: 2077673.89. Status: Approved. Approved_By: Board.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0084. Date: 2022-09-07. Biennium: 2022-2023. Budget_Type: Operational Budget. Fund_Type: Special Account. Category: Reimbursement. Amount_EUR: 1672130.23. Status: Under Audit. Approved_By: Director-General.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0085. Date: 2022-11-29. Biennium: 2022-2023. Budget_Type: Regular Budget. Fund_Type: Trust Fund. Category: Appropriation. Amount_EUR: 890288.29. Status: Under Audit. Approved_By: Board.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0086. Date: 2023-09-03. Biennium: 2022-2023. Budget_Type: Operational Budget. Fund_Type: Special Account. Category: Contribution. Amount_EUR: 1293984.99. Status: Pending Review. Approved_By: Director-General.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0087. Date: 2021-02-20. Biennium: 2020-2021. Budget_Type: Operational Budget. Fund_Type: Special Account. Category: Appropriation. Amount_EUR: 1728070.3. Status: Surrendered. Approved_By: Board.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0088. Date: 2020-04-05. Biennium: 2020-2021. Budget_Type: Operational Budget. Fund_Type: Working Capital Fund. Category: Expenditure. Amount_EUR: 1731008.95. Status: Under Audit. Approved_By: Programme & Budget Committee.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0089. Date: 2023-07-21. Biennium: 2022-2023. Budget_Type: Operational Budget. Fund_Type: Trust Fund. Category: Investment Income. Amount_EUR: 1378219.24. Status: Under Audit. Approved_By: Programme & Budget Committee.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0090. Date: 2022-11-10. Biennium: 2022-2023. Budget_Type: Operational Budget. Fund_Type: Working Capital Fund. Category: Contribution. Amount_EUR: 1804604.41. Status: Under Audit. Approved_By: Director-General.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0091. Date: 2025-07-02. Biennium: 2024-2025. Budget_Type: Regular Budget. Fund_Type: Working Capital Fund. Category: Appropriation. Amount_EUR: 1847818.61. Status: Under Audit. Approved_By: Board.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0092. Date: 2020-07-17. Biennium: 2020-2021. Budget_Type: Operational Budget. Fund_Type: Working Capital Fund. Category: Obligation. Amount_EUR: 452706.65. Status: Approved. Approved_By: Conference.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0093. Date: 2022-02-16. Biennium: 2022-2023. Budget_Type: Regular Budget. Fund_Type: Special Account. Category: Obligation. Amount_EUR: 1745056.4. Status: Pending Review. Approved_By: Board.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0094. Date: 2020-01-13. Biennium: 2020-2021. Budget_Type: Operational Budget. Fund_Type: Trust Fund. Category: Expenditure. Amount_EUR: 1103969.65. Status: Pending Review. Approved_By: Director-General.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0095. Date: 2023-05-05. Biennium: 2022-2023. Budget_Type: Regular Budget. Fund_Type: General Fund. Category: Expenditure. Amount_EUR: 1231907.67. Status: Approved. Approved_By: Director-General.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0096. Date: 2021-07-30. Biennium: 2020-2021. Budget_Type: Operational Budget. Fund_Type: General Fund. Category: Appropriation. Amount_EUR: 300536.65. Status: Surrendered. Approved_By: Conference.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0097. Date: 2025-01-24. Biennium: 2024-2025. Budget_Type: Operational Budget. Fund_Type: Trust Fund. Category: Obligation. Amount_EUR: 2151115.83. Status: Surrendered. Approved_By: Board.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0098. Date: 2025-09-27. Biennium: 2024-2025. Budget_Type: Regular Budget. Fund_Type: Special Account. Category: Investment Income. Amount_EUR: 252587.77. Status: Pending Review. Approved_By: Director-General.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0099. Date: 2023-11-08. Biennium: 2022-2023. Budget_Type: Regular Budget. Fund_Type: Working Capital Fund. Category: Appropriation. Amount_EUR: 438664.8. Status: Approved. Approved_By: Conference.
+
+Department: Finance and Accounting. Transaction_ID: FIN-0100. Date: 2021-02-22. Biennium: 2020-2021. Budget_Type: Operational Budget. Fund_Type: Special Account. Category: Expenditure. Amount_EUR: 731691.93. Status: Pending Review. Approved_By: Programme & Budget Committee.
+
