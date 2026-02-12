@@ -1,0 +1,114 @@
+{
+  "metrics": {
+    "department_retrieval_accuracy": "100.0%",
+    "answer_keyword_relevance": "40.0%",
+    "average_latency_seconds": "198.6"
+  },
+  "details": [
+    {
+      "query": "What is the total budget for UNIDO?",
+      "truth_dept": "finance",
+      "retrieved_depts": [
+        "finance"
+      ],
+      "dept_match": true,
+      "keyword_match": true,
+      "duration": 254.14842891693115
+    },
+    {
+      "query": "How do I apply for a job at UNIDO?",
+      "truth_dept": "hr",
+      "retrieved_depts": [
+        "hr"
+      ],
+      "dept_match": true,
+      "keyword_match": true,
+      "duration": 169.03057527542114
+    },
+    {
+      "query": "What are the rules for promotion?",
+      "truth_dept": "hr",
+      "retrieved_depts": [
+        "finance",
+        "hr"
+      ],
+      "dept_match": true,
+      "keyword_match": false,
+      "duration": 306.94580817222595
+    },
+    {
+      "query": "What is the factory production output?",
+      "truth_dept": "manufacturing",
+      "retrieved_depts": [
+        "manufacturing"
+      ],
+      "dept_match": true,
+      "keyword_match": true,
+      "duration": 138.31148481369019
+    },
+    {
+      "query": "Explain the financial regulations regarding voluntary contributions.",
+      "truth_dept": "finance",
+      "retrieved_depts": [
+        "finance",
+        "hr"
+      ],
+      "dept_match": true,
+      "keyword_match": false,
+      "duration": 306.5428514480591
+    },
+    {
+      "query": "Who prepares the regular budget?",
+      "truth_dept": "finance",
+      "retrieved_depts": [
+        "finance"
+      ],
+      "dept_match": true,
+      "keyword_match": true,
+      "duration": 137.4287464618683
+    },
+    {
+      "query": "What is the retirement age?",
+      "truth_dept": "hr",
+      "retrieved_depts": [
+        "manufacturing",
+        "finance",
+        "hr"
+      ],
+      "dept_match": true,
+      "keyword_match": false,
+      "duration": 202.861718416214
+    },
+    {
+      "query": "How are safety standards maintained in manufacturing?",
+      "truth_dept": "manufacturing",
+      "retrieved_depts": [
+        "manufacturing"
+      ],
+      "dept_match": true,
+      "keyword_match": false,
+      "duration": 137.03993010520935
+    },
+    {
+      "query": "Can I get a loan from the organization?",
+      "truth_dept": "finance",
+      "retrieved_depts": [
+        "finance",
+        "hr"
+      ],
+      "dept_match": true,
+      "keyword_match": false,
+      "duration": 207.29564952850342
+    },
+    {
+      "query": "What is the leave policy?",
+      "truth_dept": "hr",
+      "retrieved_depts": [
+        "hr"
+      ],
+      "dept_match": true,
+      "keyword_match": false,
+      "duration": 126.13868379592896
+    }
+  ]
+}

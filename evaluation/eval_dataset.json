@@ -1,0 +1,98 @@
+[
+    {
+        "question": "What is the total budget for UNIDO?",
+        "ground_truth_dept": "finance",
+        "expected_keywords": [
+            "budget",
+            "finance",
+            "expenditure",
+            "euro"
+        ]
+    },
+    {
+        "question": "How do I apply for a job at UNIDO?",
+        "ground_truth_dept": "hr",
+        "expected_keywords": [
+            "recruitment",
+            "application",
+            "human resource",
+            "staff"
+        ]
+    },
+    {
+        "question": "What are the rules for promotion?",
+        "ground_truth_dept": "hr",
+        "expected_keywords": [
+            "promotion",
+            "advancement",
+            "grade",
+            "merit"
+        ]
+    },
+    {
+        "question": "What is the factory production output?",
+        "ground_truth_dept": "manufacturing",
+        "expected_keywords": [
+            "production",
+            "output",
+            "manufacturing",
+            "capacity"
+        ]
+    },
+    {
+        "question": "Explain the financial regulations regarding voluntary contributions.",
+        "ground_truth_dept": "finance",
+        "expected_keywords": [
+            "voluntary",
+            "contribution",
+            "regulation",
+            "finance"
+        ]
+    },
+    {
+        "question": "Who prepares the regular budget?",
+        "ground_truth_dept": "finance",
+        "expected_keywords": [
+            "Director-General",
+            "budget",
+            "prepare"
+        ]
+    },
+    {
+        "question": "What is the retirement age?",
+        "ground_truth_dept": "hr",
+        "expected_keywords": [
+            "retirement",
+            "age",
+            "pension"
+        ]
+    },
+    {
+        "question": "How are safety standards maintained in manufacturing?",
+        "ground_truth_dept": "manufacturing",
+        "expected_keywords": [
+            "safety",
+            "standard",
+            "quality",
+            "manufacturing"
+        ]
+    },
+    {
+        "question": "Can I get a loan from the organization?",
+        "ground_truth_dept": "finance",
+        "expected_keywords": [
+            "loan",
+            "advance",
+            "finance"
+        ]
+    },
+    {
+        "question": "What is the leave policy?",
+        "ground_truth_dept": "hr",
+        "expected_keywords": [
+            "leave",
+            "absence",
+            "vacation"
+        ]
+    }
+]

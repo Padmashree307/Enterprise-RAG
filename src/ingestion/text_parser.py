@@ -60,8 +60,11 @@ def parse_text_file(file_path: Path, department: str) -> List[Dict[str, Any]]:
             # Candidates: "Transaction_ID", "Employee_ID", "Record_ID"
             record_id = (
                 record_dict.get("Transaction_ID") or 
+                record_dict.get("Transaction Id") or 
                 record_dict.get("Employee_ID") or 
+                record_dict.get("Employee Id") or 
                 record_dict.get("Record_ID") or 
+                record_dict.get("Record Id") or 
                 f"REC-{i:03d}"
             )
             
