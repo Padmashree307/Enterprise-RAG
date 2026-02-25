@@ -29,7 +29,9 @@ def query_rag(question: str, top_k: int = 5, departments: list = None) -> dict:
     # 2. Detect departments (or use provided)
     if not departments:
         departments = query_processor.detect_departments(clean_query)
-    logger.info(f"Searching departments: {departments}")
+        logger.info(f"Auto-detected departments: {departments}")
+    else:
+        logger.info(f"Hard-filtering for department: {departments}")
     
     # 3. Retrieve relevant documents
     retrieved_docs = retriever.retrieve(clean_query, departments, top_k=top_k)
@@ -76,6 +78,9 @@ def query_rag_stream(question: str, top_k: int = 5, departments: list = None):
     # 2. Detect departments
     if not departments:
         departments = query_processor.detect_departments(clean_query)
+        logger.info(f"Auto-detected departments: {departments}")
+    else:
+        logger.info(f"Hard-filtering for department: {departments}")
         
     # 3. Retrieve
     retrieved_docs = retriever.retrieve(clean_query, departments, top_k=top_k)

@@ -11,6 +11,8 @@ from pipeline.rag_pipeline import query_rag_stream
 # --- State Management ---
 if "messages" not in st.session_state:
     st.session_state.messages = []
+if "selected_department" not in st.session_state:
+    st.session_state.selected_department = "All"
 
 # --- Page Config ---
 st.set_page_config(
@@ -211,9 +213,39 @@ st.markdown(f"""
 </style>
 """, unsafe_allow_html=True)
 
+# --- Department Options ---
+DEPARTMENT_OPTIONS = ["All", "Finance", "HR", "Manufacturing"]
+
 # --- Sidebar ---
 with st.sidebar:
     st.markdown("<h2 style='margin-bottom:0;'>ENTERPRISE RAG</h2>", unsafe_allow_html=True)
+    
+    st.markdown("---")
+
+    # Department Filter Selector
+    st.markdown("### 🎯 Context Scope")
+    selected = st.selectbox(
+        "Filter by Department",
+        options=DEPARTMENT_OPTIONS,
+        index=DEPARTMENT_OPTIONS.index(st.session_state.selected_department),
+        key="dept_selector"
+    )
+    st.session_state.selected_department = selected
+
+    # Context Mode Badge
+    if selected == "All":
+        badge_label = "All Departments"
+        badge_color = accent_color
+    else:
+        badge_label = selected
+        badge_color = "#34A853" # Green for hard-filter
+    
+    st.markdown(f"""
+    <div style='background:{badge_color}; color:white; padding:6px 14px; border-radius:20px;
+                text-align:center; font-size:0.85rem; font-weight:500; margin-top:8px;'>
+        Context Mode: {badge_label}
+    </div>
+    """, unsafe_allow_html=True)
     
     st.markdown("---")
     
@@ -229,6 +261,7 @@ with st.sidebar:
     st.markdown("---")
     if st.button("Clear Chat"):
         st.session_state.messages = []
+        st.session_state.selected_department = "All"
         st.rerun()
 
 # --- Main Page ---
@@ -304,8 +337,11 @@ if st.session_state.messages and st.session_state.messages[-1]["role"] == "user"
     # 3. Stream from pipeline
     full_response = ""
     try:
-        # Get stream from RAG pipeline
-        stream_gen, sources_data, depts = query_rag_stream(user_query, top_k=3)
+        # Get stream from RAG pipeline (with department filter)
+        dept_filter = None
+        if st.session_state.selected_department != "All":
+            dept_filter = [st.session_state.selected_department.lower()]
+        stream_gen, sources_data, depts = query_rag_stream(user_query, top_k=3, departments=dept_filter)
         
         for chunk in stream_gen:
             full_response += chunk
