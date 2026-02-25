@@ -223,9 +223,10 @@ with st.sidebar:
     st.markdown("---")
 
     # Department Filter Selector
-    st.markdown("### 🎯 Context Scope")
+    st.markdown("### Filter by Department")
     selected = st.selectbox(
         "Filter by Department",
+        label_visibility="collapsed",
         options=DEPARTMENT_OPTIONS,
         index=DEPARTMENT_OPTIONS.index(st.session_state.selected_department),
         key="dept_selector"

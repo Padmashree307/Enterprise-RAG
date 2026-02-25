@@ -1,3 +1,4 @@
+import re
 from typing import List, Optional
 from src.config.settings import settings
 from src.utils.logger import logger
@@ -10,13 +11,11 @@ class QueryProcessor:
             "hr": ["hr", "human resource", "employee", "staff", "recruitment", "salary", "benefits", "leave", "contract", "personnel", "hiring", "job"],
             "manufacturing": ["manufacturing", "production", "factory", "plant", "machine", "equipment", "maintenance", "output", "industry", "sector", "region"]
         }
+        # Regex for ID patterns: FIN-001, EMP-101, REC-001, etc.
+        self.id_pattern = re.compile(r'\b(FIN-\d+|EMP-\d+|REC-\d+|PROD-\d+)\b', re.IGNORECASE)
 
     def detect_departments(self, query: str) -> List[str]:
-        """
-        Detects relevant departments based on query keywords.
-        Returns a list of department keys (e.g. ['finance', 'hr']).
-        If no keywords match, returns all departments (fallback).
-        """
+        # ... (unchanged)
         query_lower = query.lower()
         detected = []
         
@@ -30,6 +29,18 @@ class QueryProcessor:
             
         logger.info(f"Detected departments: {detected}")
         return detected
+
+    def extract_record_id(self, query: str) -> Optional[str]:
+        """
+        Extracts a specific record ID from the query using regex.
+        Example: "tell me about FIN-001" -> "FIN-001"
+        """
+        match = self.id_pattern.search(query)
+        if match:
+            extracted_id = match.group(0).upper()
+            logger.info(f"Extracted record ID from query: {extracted_id}")
+            return extracted_id
+        return None
 
     def preprocess_query(self, query: str) -> str:
         """

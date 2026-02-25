@@ -98,15 +98,16 @@ class ChromaManager:
             
         logger.info(f"Upserted {total} documents to collection '{collection_name}'")
 
-    def query(self, collection_name: str, query_embedding: List[float], n_results: int = 5):
+    def query(self, collection_name: str, query_embedding: List[float], n_results: int = 5, where: Optional[Dict] = None):
         """
-        Query the collection key.
+        Query the collection key. Supports optional metadata 'where' filters.
         """
         collection = self.get_collection(collection_name)
         results = collection.query(
             query_embeddings=[query_embedding],
             n_results=n_results,
-            include=['documents', 'metadatas', 'distances']
+            include=['documents', 'metadatas', 'distances'],
+            where=where
         )
         return results
 
