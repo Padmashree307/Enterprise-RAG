@@ -1,4 +1,9 @@
+from typing import List, Dict, Any
 from src.retrieval.query_processor import query_processor
+from src.vectorstore.chroma_manager import chroma_manager
+from src.embeddings.generator import generate_embeddings
+from src.utils.logger import logger
+from src.utils.helpers import timer
 
 class Retriever:
     @timer
