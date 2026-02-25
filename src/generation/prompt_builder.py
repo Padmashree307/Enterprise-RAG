@@ -21,6 +21,8 @@ RAG_PROMPT_TEMPLATE = """<s>[INST] {system}
 - Answer based ONLY on the context above.
 - If the answer is not in the context, say "I don't have enough information to answer this."
 - Cite the department source when possible.
+- Formatting: Use bold headers (e.g., **ID: EMP-0001**) for each record. 
+- Do NOT use numbered lists (1., 2.) for records if they contain sub-bullets, as this breaks UI numbering.
 - Be concise. [/INST]"""
 
 

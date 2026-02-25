@@ -17,14 +17,20 @@ class Retriever:
         embeddings = generate_embeddings([query_doc], batch_size=1)
         query_embedding = embeddings[0]
         
-        # 2. Check for specific Record ID (Keyword-style hard filter)
-        record_id = query_processor.extract_record_id(query)
+        # 2. Check for specific Record IDs (Keyword-style hard filters)
+        record_ids = query_processor.extract_record_ids(query)
         where_filter = None
-        if record_id:
-            where_filter = {"record_id": record_id}
-            logger.info(f"Applying hard ID filter for retrieval: {record_id}")
-            # If searching for a specific ID, we might only need 1 result, 
-            # but we'll keep top_k for flexibility.
+        
+        if record_ids:
+            if len(record_ids) == 1:
+                where_filter = {"record_id": record_ids[0]}
+            else:
+                # Use $in for multiple IDs
+                where_filter = {"record_id": {"$in": record_ids}}
+            
+            logger.info(f"Applying hard ID filter for retrieval: {record_ids}")
+            # Ensure we retrieve enough results to cover all requested IDs
+            top_k = max(top_k, len(record_ids))
         
         all_results = []
         

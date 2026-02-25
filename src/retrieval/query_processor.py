@@ -30,17 +30,18 @@ class QueryProcessor:
         logger.info(f"Detected departments: {detected}")
         return detected
 
-    def extract_record_id(self, query: str) -> Optional[str]:
+    def extract_record_ids(self, query: str) -> List[str]:
         """
-        Extracts a specific record ID from the query using regex.
-        Example: "tell me about FIN-001" -> "FIN-001"
+        Extracts all specific record IDs from the query using regex.
+        Example: "tell me about FIN-001 and EMP-101" -> ["FIN-001", "EMP-101"]
         """
-        match = self.id_pattern.search(query)
-        if match:
-            extracted_id = match.group(0).upper()
-            logger.info(f"Extracted record ID from query: {extracted_id}")
-            return extracted_id
-        return None
+        matches = self.id_pattern.findall(query)
+        if matches:
+            # Deduplicate and normalize
+            extracted_ids = list(set(m.upper() for m in matches))
+            logger.info(f"Extracted record IDs from query: {extracted_ids}")
+            return extracted_ids
+        return []
 
     def preprocess_query(self, query: str) -> str:
         """
