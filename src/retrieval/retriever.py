@@ -146,10 +146,10 @@ class Retriever:
         if all_vector_results and all_bm25_results:
             fused = reciprocal_rank_fusion(all_vector_results, all_bm25_results)
             logger.info(f"RRF fusion produced {len(fused)} merged results")
-            return fused[:top_k * 2]
+            final_results = fused[:top_k * 2]
         elif all_vector_results:
             logger.info("No BM25 results, falling back to vector-only results")
-            return all_vector_results[:top_k * 2]
+            final_results = all_vector_results[:top_k * 2]
         elif all_bm25_results:
             logger.info("No vector results, falling back to BM25-only results")
             # Convert BM25 results to standard format
@@ -162,9 +162,34 @@ class Retriever:
                     "text": doc["text"],
                     "department": doc["department"]
                 })
-            return converted[:top_k * 2]
+            final_results = converted[:top_k * 2]
         else:
             return []
+
+        # 6. Post-filter: when record IDs are in the query, ONLY keep
+        #    chunks whose metadata record_id matches one of the requested IDs.
+        #    This prevents unrelated PDF chunks from leaking into the response.
+        if record_ids:
+            id_set = set(rid.upper() for rid in record_ids)
+            filtered = [
+                doc for doc in final_results
+                if doc.get("metadata", {}).get("record_id", "").upper() in id_set
+            ]
+            if filtered:
+                logger.info(
+                    f"Post-filter kept {len(filtered)}/{len(final_results)} "
+                    f"results matching IDs {record_ids}"
+                )
+                return filtered
+            else:
+                # Fallback: if nothing matched metadata, return original
+                # (safety net in case metadata field differs)
+                logger.warning(
+                    f"Post-filter found 0 results for IDs {record_ids}; "
+                    f"returning unfiltered results"
+                )
+
+        return final_results
 
 
 retriever = Retriever()
