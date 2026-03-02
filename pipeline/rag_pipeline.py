@@ -44,9 +44,8 @@ def query_rag(question: str, top_k: int = 5, departments: list = None) -> dict:
             "departments": departments
         }
     
-    # 4. Build prompt (use ID formatting only if record IDs were in the query)
-    record_ids = query_processor.extract_record_ids(clean_query)
-    prompt = build_rag_prompt(clean_query, retrieved_docs, has_record_ids=bool(record_ids))
+    # 4. Build prompt
+    prompt = build_rag_prompt(clean_query, retrieved_docs)
     logger.info(f"Prompt length: {len(prompt)} characters")
     
     # 5. Generate answer
@@ -99,9 +98,8 @@ def query_rag_stream(question: str, top_k: int = 5, departments: list = None):
         def empty_gen(): yield "No relevant documents found."
         return empty_gen(), sources, departments
     
-    # 4. Build prompt (use ID formatting only if record IDs were in the query)
-    record_ids = query_processor.extract_record_ids(clean_query)
-    prompt = build_rag_prompt(clean_query, retrieved_docs, has_record_ids=bool(record_ids))
+    # 4. Build prompt
+    prompt = build_rag_prompt(clean_query, retrieved_docs)
     
     # 5. Generate stream
     stream = llm_client.generate_stream(prompt, temperature=0.1, max_tokens=512)

@@ -12,7 +12,7 @@ class QueryProcessor:
             "manufacturing": ["manufacturing", "production", "factory", "plant", "machine", "equipment", "maintenance", "output", "industry", "sector", "region"]
         }
         # Regex for ID patterns: FIN-001, EMP-101, REC-001, etc.
-        self.id_pattern = re.compile(r'\b(FIN-\d+|EMP-\d+|MFG-\d+|REC-\d+|PROD-\d+)\b', re.IGNORECASE)
+        self.id_pattern = re.compile(r'\b(FIN-\d+|EMP-\d+|REC-\d+|PROD-\d+)\b', re.IGNORECASE)
 
     def detect_departments(self, query: str) -> List[str]:
         # ... (unchanged)
