@@ -54,11 +54,16 @@ def query_rag(question: str, top_k: int = 5, departments: list = None) -> dict:
     # 6. Compile sources
     sources = []
     for doc in retrieved_docs:
-        sources.append({
+        source_info = {
             "department": doc["department"],
             "source_file": doc["metadata"].get("source_file", "unknown"),
             "score": round(doc["score"], 4)
-        })
+        }
+        # Include page number for PDF-sourced documents (policy docs)
+        page_num = doc["metadata"].get("page_number")
+        if page_num is not None:
+            source_info["page_number"] = page_num
+        sources.append(source_info)
     
     return {
         "answer": answer,
@@ -88,11 +93,16 @@ def query_rag_stream(question: str, top_k: int = 5, departments: list = None):
     # Compile sources
     sources = []
     for doc in retrieved_docs:
-        sources.append({
+        source_info = {
             "department": doc["department"],
             "source_file": doc["metadata"].get("source_file", "unknown"),
             "score": round(doc["score"], 4)
-        })
+        }
+        # Include page number for PDF-sourced documents (policy docs)
+        page_num = doc["metadata"].get("page_number")
+        if page_num is not None:
+            source_info["page_number"] = page_num
+        sources.append(source_info)
 
     if not retrieved_docs:
         def empty_gen(): yield "No relevant documents found."
@@ -138,9 +148,10 @@ def interactive_mode():
             print("-" * 50)
             print(result["answer"])
             print("\n" + "-" * 50)
-            print("SOURCES:")
+            print("SOURCES & REFERENCES:")
             for s in result["sources"][:5]:
-                print(f"  - [{s['department']}] {s['source_file']} (relevance: {1-s['score']:.2f})")
+                page_info = f", Page {s['page_number']}" if 'page_number' in s else ""
+                print(f"  - [{s['department']}] {s['source_file']}{page_info} (relevance: {1-s['score']:.2f})")
             print("-" * 50)
             
         except KeyboardInterrupt:
@@ -161,8 +172,9 @@ if __name__ == "__main__":
     if args.query:
         result = query_rag(args.query, top_k=args.top_k)
         print("\nAnswer:", result["answer"])
-        print("\nSources:")
+        print("\nSources & References:")
         for s in result["sources"][:5]:
-            print(f"  - [{s['department']}] {s['source_file']}")
+            page_info = f", Page {s['page_number']}" if 'page_number' in s else ""
+            print(f"  - [{s['department']}] {s['source_file']}{page_info}")
     else:
         interactive_mode()
