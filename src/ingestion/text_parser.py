@@ -37,13 +37,15 @@ def parse_text_file(file_path: Path, department: str) -> List[Dict[str, Any]]:
                 continue
                 
             # Parse key-values: "Key: Value. Key2: Value2."
-            # Splitting by ". " is safer than regex which might break on decimals (e.g. 500.50)
+            # Use regex to split ONLY on ". " when followed by a field key pattern
+            # (capitalized word + colon). This prevents splitting inside decimal
+            # numbers like "Amount_EUR: 1475217.88. Status: Approved."
             
             # Remove trailing dot if present
             if block.endswith('.'):
                 block = block[:-1]
                 
-            pairs = block.split('. ')
+            pairs = re.split(r'\.\s+(?=[A-Z][A-Za-z_]+\s*:)', block)
             record_dict = {}
             
             for pair in pairs:
