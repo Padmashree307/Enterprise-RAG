@@ -304,16 +304,34 @@ else:
             
             # Sub-expander for sources if they exist
             if msg.get("sources"):
-                # Deduplicate sources by filename + page_number
-                unique_sources = {}
+                # Group sources by (department, source_file) and collect page numbers
+                grouped = {}
                 for s in msg["sources"]:
+                    key = (s['department'], s['source_file'])
+                    if key not in grouped:
+                        grouped[key] = []
                     page = s.get("page_number")
-                    key = f"{s['source_file']}_pg{page}" if page else s['source_file']
-                    unique_sources[key] = s
+                    if page is not None and page not in grouped[key]:
+                        grouped[key].append(page)
+                
                 with st.expander("Sources & References"):
-                    for s in unique_sources.values():
-                        page_info = f" — Page {s['page_number']}" if 'page_number' in s else ""
-                        st.markdown(f"- **{s['department'].upper()}** — *{s['source_file']}*{page_info}")
+                    for (dept, src_file), pages in grouped.items():
+                        if pages:
+                            # Sort and merge consecutive pages into ranges
+                            pages.sort()
+                            ranges = []
+                            start = end = pages[0]
+                            for p in pages[1:]:
+                                if p == end + 1:
+                                    end = p
+                                else:
+                                    ranges.append(f"{start}-{end}" if start != end else str(start))
+                                    start = end = p
+                            ranges.append(f"{start}-{end}" if start != end else str(start))
+                            page_str = ", ".join(ranges)
+                            st.markdown(f"- **{dept.upper()}** — *{src_file}* — Page {page_str}")
+                        else:
+                            st.markdown(f"- **{dept.upper()}** — *{src_file}*")
 
 st.markdown('</div>', unsafe_allow_html=True)
 
