@@ -304,11 +304,16 @@ else:
             
             # Sub-expander for sources if they exist
             if msg.get("sources"):
-                # Deduplicate sources by filename
-                unique_sources = {s['source_file']: s for s in msg["sources"]}.values()
+                # Deduplicate sources by filename + page_number
+                unique_sources = {}
+                for s in msg["sources"]:
+                    page = s.get("page_number")
+                    key = f"{s['source_file']}_pg{page}" if page else s['source_file']
+                    unique_sources[key] = s
                 with st.expander("Sources & References"):
-                    for s in unique_sources:
-                        st.markdown(f"- **{s['department'].upper()}** — *{s['source_file']}*")
+                    for s in unique_sources.values():
+                        page_info = f" — Page {s['page_number']}" if 'page_number' in s else ""
+                        st.markdown(f"- **{s['department'].upper()}** — *{s['source_file']}*{page_info}")
 
 st.markdown('</div>', unsafe_allow_html=True)
 
